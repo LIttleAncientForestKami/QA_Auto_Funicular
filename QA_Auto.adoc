@@ -28,7 +28,7 @@ With us being this complex, what do you think a whole branch of programming/test
 
 You are expected to read a few papers and go through mandatory courses.
 
-http://github.io/QA_Auto_Practice-Funicular/[Prereqs.pdf link]
+https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs/prereqs.pdf[prereqs.pdf link]
 
 include::50ProgramsChallenged.adoc[]
 
