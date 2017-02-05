@@ -19,11 +19,63 @@ Published program :: program that is available in it's own directory on GitHub r
 
 === 50 programs for this week:
 
-. tba from Slack
+1. Hello World
+2. Hello Name
+3. Hello List of Names
+4. Calculator
+5. War (card game)
+6. A guessing game
+7. Number sorter
+8. Number sorter with extra criterias
+9. Word completion (ext -> extra, extramarital, extraterrestrial...)
+10. OX via functions 
+11. Text to CSV converter
+12. Line wrapper
+13. Line unwrapper
+14. Prosty MD -> HTML
+15. Prosty walidator HTML 5 HEAD
+16. Prosty walidator HTML 5 
+17. Słowny wąż (Marek na jarmarek kupił sobie zegarek)
+18. Program tworzący plik o podanej nazwie
+19. j.w. i zapisujący do niego treść
+20. Program walidujący HTMLa za pomocą istniejącego walidatora
+21. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych)
+22. Oto plansza szachów, wykonaj legalny ruch
+23. Oto plansza szachów, podaj zagrożone figury
+24. Mając podaną figurę wypisz jej ruchy
+25. Program zliczający katalogi
+26. j.w. + poza takimi z listy (z pliku properties)
+27. j.w. + listę można robić ręcznie w programie (wybierz katalogi do...)
+28. Program zlicza katalogi ORAZ pliki
+29. Program wyświetlający zawartość pliku podanego po nazwie
+30. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania)
+31. Zamiana liczby całkowitej na binarną.
+32. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego miejsca po przecinku.
+33. Prosty kalkulator walut.
+34. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8).
+35. Usuwanie n-tego elementu z listy (własna struktuta dla węzła, bez korzystania np z LinkedList).
+36. Zwróć wszystkie liczby znajdujące się w stringu (regex).
+37. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd).
+38. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika (pole static).
+39. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
+40. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i listowanie plików w katalogu).
+41. Sprawdzanie czy string jest palindromem
+42. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający
+43. Fizz Buzz
+44. Liczenie samogłosek
+45. Odwracanie stringa
+46. Ile dni zostało do podanej daty
+47. Zgadnij liczbe (z podpowiedziami "mniej"/"więcej")
+48. Procentowe występowanie liter w tekście
+49. Liczenie słow w tekscie
+50. Konwerter jednostek temp, dlugosci, itp.
+51. Poker Hand Evaluator
+52. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y]
+53. Snake [gra]
 
 === Karol and Tomek
 
-Get their own list of 10 programs out of which they are to choose and implement five. Less strict rules apply, cause... their programs are 'a tad' bigger.
+Implement five from:
 
 . My books reviews
 . OOP OX 
@@ -36,7 +88,7 @@ Get their own list of 10 programs out of which they are to choose and implement 
 . DuckDuckGo search query
 . Trello via REST automation
 
-Rules: 
+Rules are 'a tad' different: 
 
 . web-app (use Spring Boot, Dropwizard or Ratpack)
 . Gradle for build
