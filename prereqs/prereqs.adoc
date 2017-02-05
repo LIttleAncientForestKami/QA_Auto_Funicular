@@ -1,0 +1,106 @@
+= QA Automation training prerequisites
+:author: Tomasz Borek, @LAFK_pl, 
+:email: http://lafkblogs.wordpress.com
+:toc: preamble
+:toc-title: Prerequisistes table of contents
+:hardbreaks:
+:icons: font
+
+You are expected to read these papers and go through mandatory courses.
+
+== About me
+
+image::lafk_pl.png[]
+
+WARNING: I pour a lot into each training. I also expect a lot. This will be hard work folks.
+
+
+== Training
+
+Will be rooted in practice.
+Begins on Monday, at 10:00AM. 6th February 2017.
+You will get a calendar invite for every part of the program.
+
+=== Spirit of the training
+
+From the 2001 book Art & Fear:
+
+    The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality. His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pound of pots rated an “A”, forty pounds a “B”, and so on. Those being graded on “quality”, however, needed to produce only one pot — albeit a perfect one — to get an “A”.
+
+    Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the “quantity” group was busily churning out piles of work — and learning from their mistakes — the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
+
+I do not wish to repeat the experiment, cause there's no merit. 
+You will be graded by amount of code you do. Amount of tests you have. Make mistakes. Learn. Improve with each test.
+Your way to quality goes through quantity, cause more quantity -> more feedback -> more learning -> more QUALITY.
+
+== Prerequisites
+
+CAUTION: Keep in mind, optional ones will help, but not as much as mandatory ones.
+
+=== New to software testing?
+
+Below you will find reading material from testers to wanna-be testers.
+
+And tutorials to complete to have basic Java abilities.
+
+And survey to fill so I can adjust training and tailor it for you.
+
+=== QA automation - reading materials
+
+Touches on aspects we won't be talking about enough (if at all). Also, gives you perspective and other sources to peruse material on your own.
+
+First: forget the "best way to". Seriously.
+http://testjutsu.com/2012/02/new-to-software-testing-read-this/
+
+World-class tester:
+http://www.ebaytechblog.com/2013/01/31/becoming-a-world-class-tester/
+
+http://www.kaner.com/pdfs/allegheny.pdf[Tester's work, 19 pages, PDF]
+
+http://www.developsense.com/presentations/2009-06-EmotionsAndOracles.pdf[Rarely mentioned aspects of QA Auto job - Oracles and Emotions, 4 pages PDF]
+
+Cem Kaner, Bug Advocacy, till page 41 and from page 87 (both inclusive):
+http://www.kaner.com/pdfs/bugadvoc.pdf[103 pages PDF (including GNU licence text)]
+
+James Bach about automation tests, vinegar instead of kool-aid/snake oil:
+http://www.satisfice.com/articles/test_automation_snake_oil.pdf
+
+
+[TIP]
+.Optional reads
+====
+
+1. http://www.softwarequalitymethods.com/Papers/Star99%20model%20Paper.pdf[Cost of testing automation]
+2. James Bach, test syllabus:
+http://www.satisfice.com/images/testsyllabus.pdf
+3. Chris Kenst shares more on syllabus:
+http://www.mytechfetish.com/2012/05/what-testers-need-to-learn.html
+4. http://www.uml.org.cn/test/pdf/automate.pdf[To automate or not, that is the... what's the cost?]
+====
+
+=== Java tutorials
+
+Oracle Trails, mandatory:
+
+1. https://docs.oracle.com/javase/tutorial/getStarted/index.html[Setup Java, learn a bit about it and write and run your first program]
+2. https://docs.oracle.com/javase/tutorial/java/index.html[OOP concepts, language basics, classes and objects, annotations, interfaces and inheritance, numbers and Strings, generics, packages]
+
+https://docs.oracle.com/javase/tutorial/[All trails, if you make the two mandatory ones]
+
+Greg from New Boston video tutorials: https://thenewboston.com/videos.php?cat=31
+Cave of programming on Udemy: https://www.udemy.com/java-tutorial/
+
+=== Java books
+
+Where to get:
+
+1. buy (Helion, PWN, OReilly, Manning...)
+2. rent (EPAM library, Kraków library).
+3. borrow - Tomek has some in Polish. 
+
+Start with one of:
+
+1. Horstmann & Cornell, Core Java: Fundamentals
+2. Head First Java
+3. Herbert Shildt books
+4. https://kb.epam.com/display/EPMPLHR/Library?preview=/227541336/227442839/Java_How_to_Program_9th_Edition_Paul_Deitel_Harvey_Deitel(www.ebook-dl.com).pdf[Deitel and Deitel: Java - How to program] - recommended as e-book is available in our library

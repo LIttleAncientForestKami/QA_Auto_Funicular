@@ -1,0 +1,44 @@
+
+[data-background="green"]
+== Org matters
+
+[CAUTION]
+.Prerequisites
+====
+These you are to be completed before training begins!
+====
+
+Breaks - as you wish
+Tempo - as you wish
+Questions - also as you wish
+
+=== About me
+
+image::lafk_pl.png[]
+
+WARNING: I pour a lot into each training. I also expect a lot. This will be hard work folks.
+
+=== About you?
+[%step]
+. Who are you?
+. Your name?
+. Why are you here?
+
+[data-background="black"]
+[abstract]
+=== About the training
+
+Will make you able to 
+
+. use powers of automation.
+. use Java, Selenium, few others
+. use some required infrastructure (Git, CI, Gradle)
+
+ Make you step closer to qa automation specialists.
+ Have you drink some vinegar instead of kool-aid.
+
+WARNING: *Coding, testing and infrastructure* are what you are graded upon!
+
+IMPORTANT: This training is for you. Get as much as you humanly can.
+
+image::question-mark.jpg[]

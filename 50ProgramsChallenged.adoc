@@ -1,0 +1,45 @@
+== 50 programs in a week
+
+Since quantity is everything here...
+
+. You are to write 50 programs in a week
+. Following **Program** definition below
+
+TIP: Karol and Tomek are good reviewers - ask them questions!
+
+=== Definition
+
+Program :: Java program 100% covered by tests
+
+Test :: code that verifies other code, usually written in a framework similar to TestNG
+
+Code coverage :: usually shortened to _coverage_, measure in % of code that is verified (_covered_) with tests
+
+Published program :: program that is available in it's own directory on GitHub repo, where Tomek is made a contributor
+
+=== 50 programs for this week:
+
+. tba from Slack
+
+=== Karol and Tomek
+
+Get their own list of 10 programs out of which they are to choose and implement five. Less strict rules apply, cause... their programs are 'a tad' bigger.
+
+. My books reviews
+. OOP OX 
+. Rock, paper, scissors
+. Agile Planning Poker app
+. Simple Orthodox File Manager
+. File Editor
+. Currency Converter
+. Bridge core
+. DuckDuckGo search query
+. Trello via REST automation
+
+Rules: 
+
+. web-app (use Spring Boot, Dropwizard or Ratpack)
+. Gradle for build
+. each program has own repo
+. test coverage: 33% minimum
+. suitable for extension later

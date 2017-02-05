@@ -1,0 +1,35 @@
+= QA Automation Training
+:author: Tomasz Borek, @LAFK_pl, 
+:email: http://lafkblogs.wordpress.com
+:toc: preamble
+:toc-title: Agenda
+:hardbreaks:
+:icons: font
+:imagesdir: ./img/
+:docinfo:
+:source-highlighter: highlightjs
+
+Main page for practice funicular ;-)
+
+include::Org.adoc[]
+
+== Demystifying the job
+
+Have some vinegar, cause you already had too much kool-aid.
+
+[TIP]
+.Hard work required
+====
+
+https://www.youtube.com/watch?v=BgdBtPdHSYM[Human body in numbers]
+
+With us being this complex, what do you think a whole branch of programming/testing will be if not something huge and complicated?
+====
+
+You are expected to read a few papers and go through mandatory courses.
+
+http://github.io/QA_Auto_Practice-Funicular/[Prereqs.pdf link]
+
+include::50ProgramsChallenged.adoc[]
+
+include::theory.adoc[]

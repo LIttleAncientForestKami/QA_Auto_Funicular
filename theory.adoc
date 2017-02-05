@@ -1,0 +1,52 @@
+== Testing theory
+
+. Kinds of tests
+. Tests and boxes
+. Test pyramid
+. Golden Master
+
+=== Kinds of tests
+
+Unit::
+Integration::
+End to end::
+Acceptance::
+Smoke::
+Functional::
+Manual::
+Automated::
+Performance::
+System::
+Stress::
+Load::
+Endurance::
+Soak::
+Characterization::
+
+and there ARE others
+
+[insert fitting image here]
+
+=== Tests and boxes
+
+. Black
+. White
+. Grey
+
+
+=== Test pyramid
+
+[insert image]
+
+Data? Background? Research proving it?
+
+=== Golden Master
+
+. Run the Golden Run
+. Save the output as Golden Master
+. Prepare the input
+. Capture the output
+. Compare with Golden Master
+. Act on differences, if any
+
+
