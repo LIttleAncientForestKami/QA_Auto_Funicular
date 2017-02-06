@@ -19,6 +19,8 @@ Published program :: program that is available in it's own directory on GitHub r
 
 === 50 programs for this week:
 
+EASY
+
 1. Hello World
 2. Hello Name
 3. Hello List of Names
@@ -38,52 +40,58 @@ time to UTC converter
 15. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from
 string (use regular expression)
 16. Ile dni zostało do podanej daty / How many days are remaining to specified date
-17. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
+17. Line wrapper
+18. Line unwrapper
+19. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
 (pole static). / Return number of employees created in system without external
 counter
-18. Program zliczający katalogi / Write a program that counts directories
-19. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories
+20. Program tworzący plik o podanej nazwie / Program which creates a file with given
+name
+21. j.w. i zapisujący do niego treść / Program which creates a file with given name and
+puts content to it
+
+MEDIUM
+
+22. Program zliczający katalogi / Write a program that counts directories
+23. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories
 except ones from list (list from properties file)
-20. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a
+24. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a
 program that counts directories except ones from list + directory list can be created
 manually in the program
-21. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
-22. Line wrapper
-23. Line unwrapper
-24. Calculator
-25. A guessing game
-26. Number sorter
-27. Number sorter with extra criterias
-28. Word completion (ext → extra, extramarital, extraterrestrial…)
-29. War (card game)
-30. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z
+25. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
+26. Calculator
+27. Number sorter
+28. Number sorter with extra criterias
+29. Word completion (ext → extra, extramarital, extraterrestrial…)
+30. A guessing game
+31. War (card game)
+32. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z
 LinkedList). / Remove nth element from the list (you have your own node structure)
-31. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający /
+33. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający /
 Check if every opening bracket has corresponding closing bracket
-32. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z
+34. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z
 rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can
 add a product and quantity and at the end it calculates amount you need to pay. There
 can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where
 Y is a price of the product “A”]
-33. Poker Hand Evaluator (You have five cards, what poker hand it is?)
-34. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie
+35. Poker Hand Evaluator (You have five cards, what poker hand it is?)
+36. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie
 litery, cyfry itd). / Password validator based on several conditions (length, special
 characters, big/small letters, digits, etc)
-35. Program tworzący plik o podanej nazwie / Program which creates a file with given
-name
-36. j.w. i zapisujący do niego treść / Program which creates a file with given name and
-puts content to it
 37. Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
-38. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that
-validate HTML using existing validator
-39. Text to CSV converter
-40. Prosty MD → HTML / Simple Markdown to HTML converter
-41. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
-42. Prosty walidator HTML 5 / Simple HTML 5 validator
-43. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays
+38. Text to CSV converter
+39. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays
 content of file which name was provided
-44. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
+40. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
 / Getting notifications about subscribed user (simple observer pattern)
+
+HARD
+
+41. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that
+validate HTML using existing validator
+42. Prosty MD → HTML / Simple Markdown to HTML converter
+43. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
+44. Prosty walidator HTML 5 / Simple HTML 5 validator
 45. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i
 listowanie plików w katalogu)./ command line (2 operations: changing directory,
 listing files in a directory)
@@ -95,6 +103,9 @@ move
 48. Oto plansza szachów, podaj zagrożone figury / You have a chess board, show
 threatened figures
 49. Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
+
+IMPOSSIBLE
+
 50. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą
 sekwencję ruchów do wykonania) / Program which plays chess game for the beginner
 (computer should have simple sequence of moves)
