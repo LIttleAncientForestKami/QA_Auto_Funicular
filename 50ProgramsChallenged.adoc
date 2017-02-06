@@ -22,56 +22,84 @@ Published program :: program that is available in it's own directory on GitHub r
 1. Hello World
 2. Hello Name
 3. Hello List of Names
-4. Calculator
-5. War (card game)
-6. A guessing game
-7. Number sorter
-8. Number sorter with extra criterias
-9. Word completion (ext -> extra, extramarital, extraterrestrial...)
-10. OX via functions 
-11. Text to CSV converter
-12. Line wrapper
-13. Line unwrapper
-14. Prosty MD -> HTML
-15. Prosty walidator HTML 5 HEAD
-16. Prosty walidator HTML 5 
-17. Słowny wąż (Marek na jarmarek kupił sobie zegarek)
-18. Program tworzący plik o podanej nazwie
-19. j.w. i zapisujący do niego treść
-20. Program walidujący HTMLa za pomocą istniejącego walidatora
-21. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych)
-22. Oto plansza szachów, wykonaj legalny ruch
-23. Oto plansza szachów, podaj zagrożone figury
-24. Mając podaną figurę wypisz jej ruchy
-25. Program zliczający katalogi
-26. j.w. + poza takimi z listy (z pliku properties)
-27. j.w. + listę można robić ręcznie w programie (wybierz katalogi do...)
-28. Program zlicza katalogi ORAZ pliki
-29. Program wyświetlający zawartość pliku podanego po nazwie
-30. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania)
-31. Zamiana liczby całkowitej na binarną.
-32. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego miejsca po przecinku.
-33. Prosty kalkulator walut.
-34. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8).
-35. Usuwanie n-tego elementu z listy (własna struktuta dla węzła, bez korzystania np z LinkedList).
-36. Zwróć wszystkie liczby znajdujące się w stringu (regex).
-37. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd).
-38. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika (pole static).
-39. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
-40. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i listowanie plików w katalogu).
-41. Sprawdzanie czy string jest palindromem
-42. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający
-43. Fizz Buzz
-44. Liczenie samogłosek
-45. Odwracanie stringa
-46. Ile dni zostało do podanej daty
-47. Zgadnij liczbe (z podpowiedziami "mniej"/"więcej")
-48. Procentowe występowanie liter w tekście
-49. Liczenie słow w tekscie
-50. Konwerter jednostek temp, dlugosci, itp.
-51. Poker Hand Evaluator
-52. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y]
-53. Snake [gra]
+4. Zamiana liczby całkowitej na binarną. / Integer to binary converter
+5. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego
+miejsca po przecinku. / Program which round decimal number to specified precision
+6. Prosty kalkulator walut. / Simple currency converter
+7. Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
+8. Odwracanie stringa / Reverse the string
+9. Sprawdzanie czy string jest palindromem / Check if string is a palindrome
+10. Liczenie samogłosek / Count vowels in the word
+11. Liczenie słow w tekscie / Count words in text
+12. Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
+13. Procentowe występowanie liter w tekście / Percentege occurences letters in text
+14. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local
+time to UTC converter
+15. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from
+string (use regular expression)
+16. Ile dni zostało do podanej daty / How many days are remaining to specified date
+17. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
+(pole static). / Return number of employees created in system without external
+counter
+18. Program zliczający katalogi / Write a program that counts directories
+19. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories
+except ones from list (list from properties file)
+20. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a
+program that counts directories except ones from list + directory list can be created
+manually in the program
+21. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
+22. Line wrapper
+23. Line unwrapper
+24. Calculator
+25. A guessing game
+26. Number sorter
+27. Number sorter with extra criterias
+28. Word completion (ext → extra, extramarital, extraterrestrial…)
+29. War (card game)
+30. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z
+LinkedList). / Remove nth element from the list (you have your own node structure)
+31. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający /
+Check if every opening bracket has corresponding closing bracket
+32. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z
+rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can
+add a product and quantity and at the end it calculates amount you need to pay. There
+can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where
+Y is a price of the product “A”]
+33. Poker Hand Evaluator (You have five cards, what poker hand it is?)
+34. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie
+litery, cyfry itd). / Password validator based on several conditions (length, special
+characters, big/small letters, digits, etc)
+35. Program tworzący plik o podanej nazwie / Program which creates a file with given
+name
+36. j.w. i zapisujący do niego treść / Program which creates a file with given name and
+puts content to it
+37. Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
+38. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that
+validate HTML using existing validator
+39. Text to CSV converter
+40. Prosty MD → HTML / Simple Markdown to HTML converter
+41. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
+42. Prosty walidator HTML 5 / Simple HTML 5 validator
+43. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays
+content of file which name was provided
+44. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
+/ Getting notifications about subscribed user (simple observer pattern)
+45. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i
+listowanie plików w katalogu)./ command line (2 operations: changing directory,
+listing files in a directory)
+46. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i
+czarnych) / You have a chess board, calculate “chess positions” (numerical value of
+white and black figures)
+47. Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal
+move
+48. Oto plansza szachów, podaj zagrożone figury / You have a chess board, show
+threatened figures
+49. Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
+50. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą
+sekwencję ruchów do wykonania) / Program which plays chess game for the beginner
+(computer should have simple sequence of moves)
+51. OX via functions
+52. Snake [gra] / Snake [Game]
 
 === Karol and Tomek
 
