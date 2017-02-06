@@ -21,7 +21,7 @@ Published program :: program that is available in it's own directory on GitHub r
 
 EASY
 
-. Hello World
+. ./progText/HelloWorld.md[Hello World]
 . Hello Name
 . Hello List of Names
 . Zamiana liczby całkowitej na binarną. / Integer to binary converter
