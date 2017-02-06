@@ -1,0 +1,64 @@
+=== Tools and why
+
+. GitHub - social coding, portfolio, stays with you
+. Git - GitHub is a front-end for it, programmers tool
+. Gradle - easy to learn, little required to use it, programmers build tool
+
+=== GitHub
+
+. what is it
+. creating your user
+. SSH keys
+. deploying them to GitHub
+. forking my repository
+
+=== Git
+
+. what is it
+. installation
+. configuring
+. using
+
+==== Useful commands
+
+status:: `git status`, shows the status of your repository and next steps - do read it well, it gives LOADS of information, very useful
+
+add :: `git add`, adds files to versioning
+
+commit :: `git commit -m "short description of changes"`, creates a new milestone under description provided after -m
+
+pull :: `git pull origin master`
+
+push :: `git push -u origin master`, at first (to set tracking), then just `git push`, publishes your changes
+
+==== Untold truths
+
+. `origin` is a remote
+. git uses branches
+. `master` is a default branch
+. many more :-)
+
+==== Common usage
+
+. code
+. add files
+. commit
+. pull if needed (synchronize changes)
+. push
+. check on GitHub that it's there
+
+=== Gradle
+
+`gradle init --type java-application --test-framework testng`
+
+We are `init` ializing a `java-application` with `testng` used for tests.
+
+Useful commands:
+`gradle`
+
+. `build` - compiles, tests, packs if needed
+. `test` - runs tests (all of them)
+. `compileJava` - compiles Java code
+. `compileTestJava` - compiles test Java code
+
+CAUTION: more about that in week 3, during infrastructure part

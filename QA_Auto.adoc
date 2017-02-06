@@ -32,4 +32,8 @@ https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs
 
 include::50ProgramsChallenged.adoc[]
 
-include::theory.adoc[]
+include::ToolsIntroduction.adoc[]
+
+include::TestNG.adoc[]
+
+include::Theory.adoc[]

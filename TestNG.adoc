@@ -1,0 +1,13 @@
+== TestNG
+
+Testing framework for Next Generation, much more powerful than JUnit.
+
+=== Key things to master
+
+. writing tests
+. parametrizing them with `@DataProvider`
+. tests sequences
+
+=== Books
+
+Tomasz Kaczanowski - Practical Unit Tests with TestNG and Mockito
