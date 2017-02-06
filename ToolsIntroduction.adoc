@@ -1,4 +1,4 @@
-=== Tools and why
+== Tools and why
 
 . GitHub - social coding, portfolio, stays with you
 . Git - GitHub is a front-end for it, programmers tool
@@ -27,7 +27,7 @@ add :: `git add`, adds files to versioning
 
 commit :: `git commit -m "short description of changes"`, creates a new milestone under description provided after -m
 
-pull :: `git pull origin master`
+pull :: `git pull origin master`, synchronizes changes in case other folks (or you) pushed their changes from elsewhere, pulls changes from repo to local machine
 
 push :: `git push -u origin master`, at first (to set tracking), then just `git push`, publishes your changes
 

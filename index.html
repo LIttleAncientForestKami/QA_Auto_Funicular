@@ -433,6 +433,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Main page for practice funicular ;-)</p>
 </div>
+<div class="imageblock">
+<div class="content">
+<img src="./img//BudapestFunicular.jpg" alt="BudapestFunicular">
+</div>
+</div>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Agenda</div>
@@ -442,14 +447,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_about_me">About me</a></li>
 <li><a href="#_about_you">About you?</a></li>
 <li><a href="#_about_the_training">About the training</a></li>
+<li><a href="#_demystifying_the_job">Demystifying the job</a></li>
 </ul>
 </li>
-<li><a href="#_demystifying_the_job">Demystifying the job</a></li>
 <li><a href="#_50_programs_in_a_week">50 programs in a week</a>
 <ul class="sectlevel2">
 <li><a href="#_definition">Definition</a></li>
 <li><a href="#_50_programs_for_this_week">50 programs for this week:</a></li>
 <li><a href="#_karol_and_tomek">Karol and Tomek</a></li>
+</ul>
+</li>
+<li><a href="#_tools_and_why">Tools and why</a>
+<ul class="sectlevel2">
+<li><a href="#_github">GitHub</a></li>
+<li><a href="#_git">Git</a></li>
+<li><a href="#_gradle">Gradle</a></li>
+</ul>
+</li>
+<li><a href="#_testng">TestNG</a>
+<ul class="sectlevel2">
+<li><a href="#_key_things_to_master">Key things to master</a></li>
+<li><a href="#_books">Books</a></li>
+<li><a href="#_code_coverage">Code coverage</a></li>
 </ul>
 </li>
 <li><a href="#_testing_theory">Testing theory</a>
@@ -466,21 +485,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_org_matters">Org matters</h2>
 <div class="sectionbody">
-<div class="admonitionblock caution">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-caution" title="Caution"></i>
-</td>
-<td class="content">
-<div class="title">Prerequisites</div>
-<div class="paragraph">
-<p>These are to be completed before training begins!</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
 <div class="paragraph">
 <p>Breaks - as you wish<br>
 Tempo - as you wish (but do 50 programs)<br>
@@ -576,11 +580,8 @@ This training is for you. Get as much as you humanly can.
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_demystifying_the_job">Demystifying the job</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_demystifying_the_job">Demystifying the job</h3>
 <div class="paragraph">
 <p>Have some vinegar, cause you already had too much kool-aid.</p>
 </div>
@@ -602,11 +603,27 @@ This training is for you. Get as much as you humanly can.
 </tr>
 </table>
 </div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="title">Prerequisites</div>
+<div class="paragraph">
+<p>are to be completed before training begins!</p>
+</div>
 <div class="paragraph">
 <p>You are expected to read a few papers and go through mandatory courses.</p>
 </div>
 <div class="paragraph">
 <p><a href="https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs/prereqs.pdf">prereqs.pdf link</a></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 </div>
@@ -663,6 +680,9 @@ Karol and Tomek are good reviewers - ask them questions!
 </div>
 <div class="sect2">
 <h3 id="_50_programs_for_this_week">50 programs for this week:</h3>
+<div class="paragraph">
+<p>EASY</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -675,28 +695,46 @@ Karol and Tomek are good reviewers - ask them questions!
 <p>Hello List of Names</p>
 </li>
 <li>
-<p>Calculator</p>
+<p>Zamiana liczby całkowitej na binarną. / Integer to binary converter</p>
 </li>
 <li>
-<p>War (card game)</p>
+<p>Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego<br>
+iejsca po przecinku. / Program which round decimal number to specified precision</p>
 </li>
 <li>
-<p>A guessing game</p>
+<p>Prosty kalkulator walut. / Simple currency converter</p>
 </li>
 <li>
-<p>Number sorter</p>
+<p>Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)</p>
 </li>
 <li>
-<p>Number sorter with extra criterias</p>
+<p>Odwracanie stringa / Reverse the string</p>
 </li>
 <li>
-<p>Word completion (ext &#8594; extra, extramarital, extraterrestrial&#8230;&#8203;)</p>
+<p>Sprawdzanie czy string jest palindromem / Check if string is a palindrome</p>
 </li>
 <li>
-<p>OX via functions</p>
+<p>Liczenie samogłosek / Count vowels in the word</p>
 </li>
 <li>
-<p>Text to CSV converter</p>
+<p>Liczenie słow w tekscie / Count words in text</p>
+</li>
+<li>
+<p>Fizz Buzz / Fizz Buzz (<a href="https://en.wikipedia.org/wiki/Fizz_buzz" class="bare">https://en.wikipedia.org/wiki/Fizz_buzz</a>)</p>
+</li>
+<li>
+<p>Procentowe występowanie liter w tekście / Percentege occurences letters in text</p>
+</li>
+<li>
+<p>Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local<br>
+me to UTC converter</p>
+</li>
+<li>
+<p>Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from<br>
+ring (use regular expression)</p>
+</li>
+<li>
+<p>Ile dni zostało do podanej daty / How many days are remaining to specified date</p>
 </li>
 <li>
 <p>Line wrapper</p>
@@ -705,124 +743,133 @@ Karol and Tomek are good reviewers - ask them questions!
 <p>Line unwrapper</p>
 </li>
 <li>
-<p>Prosty MD &#8594; HTML</p>
+<p>Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika<br>
+ole static). / Return number of employees created in system without external<br>
+unter</p>
 </li>
 <li>
-<p>Prosty walidator HTML 5 HEAD</p>
+<p>Program tworzący plik o podanej nazwie / Program which creates a file with given<br>
+me</p>
 </li>
 <li>
-<p>Prosty walidator HTML 5</p>
+<p>j.w. i zapisujący do niego treść / Program which creates a file with given name and<br>
+puts content to it</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>MEDIUM</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Program zliczający katalogi / Write a program that counts directories</p>
 </li>
 <li>
-<p>Słowny wąż (Marek na jarmarek kupił sobie zegarek)</p>
+<p>j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories except ones from list (list from properties file)</p>
 </li>
 <li>
-<p>Program tworzący plik o podanej nazwie</p>
+<p>j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a program that counts directories except ones from list + directory list can be created manually in the program</p>
 </li>
 <li>
-<p>j.w. i zapisujący do niego treść</p>
+<p>Program zlicza katalogi ORAZ pliki / Program which counts directories and files</p>
 </li>
 <li>
-<p>Program walidujący HTMLa za pomocą istniejącego walidatora</p>
+<p>Calculator</p>
 </li>
 <li>
-<p>Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych)</p>
+<p>Number sorter</p>
 </li>
 <li>
-<p>Oto plansza szachów, wykonaj legalny ruch</p>
+<p>Number sorter with extra criterias</p>
 </li>
 <li>
-<p>Oto plansza szachów, podaj zagrożone figury</p>
+<p>Word completion (ext → extra, extramarital, extraterrestrial…)</p>
 </li>
 <li>
-<p>Mając podaną figurę wypisz jej ruchy</p>
+<p>A guessing game</p>
 </li>
 <li>
-<p>Program zliczający katalogi</p>
+<p>War (card game)</p>
 </li>
 <li>
-<p>j.w. + poza takimi z listy (z pliku properties)</p>
+<p>Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z LinkedList). / Remove nth element from the list (you have your own node structure)</p>
 </li>
 <li>
-<p>j.w. + listę można robić ręcznie w programie (wybierz katalogi do&#8230;&#8203;)</p>
+<p>Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający / Check if every opening bracket has corresponding closing bracket</p>
 </li>
 <li>
-<p>Program zlicza katalogi ORAZ pliki</p>
+<p>Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can add a product and quantity and at the end it calculates amount you need to pay. There can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where Y is a price of the product “A”]</p>
 </li>
 <li>
-<p>Program wyświetlający zawartość pliku podanego po nazwie</p>
+<p>Poker Hand Evaluator (You have five cards, what poker hand it is?)</p>
 </li>
 <li>
-<p>Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania)</p>
+<p>Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd). / Password validator based on several conditions (length, special characters, big/small letters, digits, etc)</p>
 </li>
 <li>
-<p>Zamiana liczby całkowitej na binarną.</p>
+<p>Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake</p>
 </li>
 <li>
-<p>Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego miejsca po przecinku.</p>
+<p>Text to CSV converter</p>
 </li>
 <li>
-<p>Prosty kalkulator walut.</p>
+<p>Program wyświetlający zawartość pliku podanego po nazwie / Program that displays content of file which name was provided</p>
 </li>
 <li>
-<p>Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8).</p>
+<p>Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator)/ Getting notifications about subscribed user (simple observer pattern)</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>HARD</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Program walidujący HTMLa za pomocą istniejącego walidatora / Program that validates HTML using existing validator</p>
 </li>
 <li>
-<p>Usuwanie n-tego elementu z listy (własna struktuta dla węzła, bez korzystania np z LinkedList).</p>
+<p>Prosty MD → HTML / Simple Markdown to HTML converter</p>
 </li>
 <li>
-<p>Zwróć wszystkie liczby znajdujące się w stringu (regex).</p>
+<p>Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator</p>
 </li>
 <li>
-<p>Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd).</p>
+<p>Prosty walidator HTML 5 / Simple HTML 5 validator</p>
 </li>
 <li>
-<p>Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika (pole static).</p>
+<p>Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i<br>
+listowanie plików w katalogu)./ command line (2 operations: changing directory,<br>
+listing files in a directory)</p>
 </li>
 <li>
-<p>Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).</p>
+<p>Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych) / You have a chess board, calculate “chess positions” (numerical value of white and black figures)</p>
 </li>
 <li>
-<p>Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i listowanie plików w katalogu).</p>
+<p>Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal move</p>
 </li>
 <li>
-<p>Sprawdzanie czy string jest palindromem</p>
+<p>Oto plansza szachów, podaj zagrożone figury / You have a chess board, show threatened figures</p>
 </li>
 <li>
-<p>Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający</p>
+<p>Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>IMPOSSIBLE</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania) / Program which plays chess game for the beginner (computer should have simple sequence of moves)</p>
 </li>
 <li>
-<p>Fizz Buzz</p>
+<p>OX via functions</p>
 </li>
 <li>
-<p>Liczenie samogłosek</p>
-</li>
-<li>
-<p>Odwracanie stringa</p>
-</li>
-<li>
-<p>Ile dni zostało do podanej daty</p>
-</li>
-<li>
-<p>Zgadnij liczbe (z podpowiedziami "mniej"/"więcej")</p>
-</li>
-<li>
-<p>Procentowe występowanie liter w tekście</p>
-</li>
-<li>
-<p>Liczenie słow w tekscie</p>
-</li>
-<li>
-<p>Konwerter jednostek temp, dlugosci, itp.</p>
-</li>
-<li>
-<p>Poker Hand Evaluator</p>
-</li>
-<li>
-<p>Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y]</p>
-</li>
-<li>
-<p>Snake [gra]</p>
+<p>Snake [gra] / Snake [Game]</p>
 </li>
 </ol>
 </div>
@@ -887,6 +934,213 @@ Karol and Tomek are good reviewers - ask them questions!
 <p>suitable for extension later</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tools_and_why">Tools and why</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>GitHub - social coding, portfolio, stays with you</p>
+</li>
+<li>
+<p>Git - GitHub is a front-end for it, programmers tool</p>
+</li>
+<li>
+<p>Gradle - easy to learn, little required to use it, programmers build tool</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="_github">GitHub</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>what is it</p>
+</li>
+<li>
+<p>creating your user</p>
+</li>
+<li>
+<p>SSH keys</p>
+</li>
+<li>
+<p>deploying them to GitHub</p>
+</li>
+<li>
+<p>forking my repository</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_git">Git</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>what is it</p>
+</li>
+<li>
+<p>installation</p>
+</li>
+<li>
+<p>configuring</p>
+</li>
+<li>
+<p>using</p>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_useful_commands">Useful commands</h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">status</dt>
+<dd>
+<p><code>git status</code>, shows the status of your repository and next steps - do read it well, it gives LOADS of information, very useful</p>
+</dd>
+<dt class="hdlist1">add </dt>
+<dd>
+<p><code>git add</code>, adds files to versioning</p>
+</dd>
+<dt class="hdlist1">commit </dt>
+<dd>
+<p><code>git commit -m "short description of changes"</code>, creates a new milestone under description provided after -m</p>
+</dd>
+<dt class="hdlist1">pull </dt>
+<dd>
+<p><code>git pull origin master</code>, synchronizes changes in case other folks (or you) pushed their changes from elsewhere, pulls changes from repo to local machine</p>
+</dd>
+<dt class="hdlist1">push </dt>
+<dd>
+<p><code>git push -u origin master</code>, at first (to set tracking), then just <code>git push</code>, publishes your changes</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_untold_truths">Untold truths</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>origin</code> is a remote</p>
+</li>
+<li>
+<p>git uses branches</p>
+</li>
+<li>
+<p><code>master</code> is a default branch</p>
+</li>
+<li>
+<p>many more :-)</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_common_usage">Common usage</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>code</p>
+</li>
+<li>
+<p>add files</p>
+</li>
+<li>
+<p>commit</p>
+</li>
+<li>
+<p>pull if needed (synchronize changes)</p>
+</li>
+<li>
+<p>push</p>
+</li>
+<li>
+<p>check on GitHub that it&#8217;s there</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gradle">Gradle</h3>
+<div class="paragraph">
+<p><code>gradle init --type java-application --test-framework testng</code></p>
+</div>
+<div class="paragraph">
+<p>We are <code>init</code> ializing a <code>java-application</code> with <code>testng</code> used for tests.</p>
+</div>
+<div class="paragraph">
+<p>Useful commands:<br>
+<code>gradle</code></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>build</code> - compiles, tests, packs if needed</p>
+</li>
+<li>
+<p><code>test</code> - runs tests (all of them)</p>
+</li>
+<li>
+<p><code>compileJava</code> - compiles Java code</p>
+</li>
+<li>
+<p><code>compileTestJava</code> - compiles test Java code</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+more about that in week 3, during infrastructure part
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_testng">TestNG</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Testing framework for Next Generation, much more powerful than JUnit.</p>
+</div>
+<div class="sect2">
+<h3 id="_key_things_to_master">Key things to master</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>writing tests</p>
+</li>
+<li>
+<p>parametrizing them with <code>@DataProvider</code></p>
+</li>
+<li>
+<p>tests sequences</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_books">Books</h3>
+<div class="paragraph">
+<p>Tomasz Kaczanowski - Practical Unit Tests with TestNG and Mockito</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_code_coverage">Code coverage</h3>
+<div class="paragraph">
+<p>Will be added later</p>
 </div>
 </div>
 </div>
@@ -987,7 +1241,7 @@ Karol and Tomek are good reviewers - ask them questions!
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-02-06 00:06:31 CET
+Last updated 2017-02-06 15:13:59 CET
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

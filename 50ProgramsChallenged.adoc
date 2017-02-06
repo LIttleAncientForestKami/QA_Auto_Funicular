@@ -21,96 +21,76 @@ Published program :: program that is available in it's own directory on GitHub r
 
 EASY
 
-1. Hello World
-2. Hello Name
-3. Hello List of Names
-4. Zamiana liczby całkowitej na binarną. / Integer to binary converter
-5. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego
-miejsca po przecinku. / Program which round decimal number to specified precision
-6. Prosty kalkulator walut. / Simple currency converter
-7. Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
-8. Odwracanie stringa / Reverse the string
-9. Sprawdzanie czy string jest palindromem / Check if string is a palindrome
-10. Liczenie samogłosek / Count vowels in the word
-11. Liczenie słow w tekscie / Count words in text
-12. Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
-13. Procentowe występowanie liter w tekście / Percentege occurences letters in text
-14. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local
-time to UTC converter
-15. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from
-string (use regular expression)
-16. Ile dni zostało do podanej daty / How many days are remaining to specified date
-17. Line wrapper
-18. Line unwrapper
-19. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
-(pole static). / Return number of employees created in system without external
-counter
-20. Program tworzący plik o podanej nazwie / Program which creates a file with given
-name
-21. j.w. i zapisujący do niego treść / Program which creates a file with given name and
+. Hello World
+. Hello Name
+. Hello List of Names
+. Zamiana liczby całkowitej na binarną. / Integer to binary converter
+. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego
+iejsca po przecinku. / Program which round decimal number to specified precision
+. Prosty kalkulator walut. / Simple currency converter
+. Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
+. Odwracanie stringa / Reverse the string
+. Sprawdzanie czy string jest palindromem / Check if string is a palindrome
+. Liczenie samogłosek / Count vowels in the word
+. Liczenie słow w tekscie / Count words in text
+. Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
+. Procentowe występowanie liter w tekście / Percentege occurences letters in text
+. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local
+me to UTC converter
+. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from
+ring (use regular expression)
+. Ile dni zostało do podanej daty / How many days are remaining to specified date
+. Line wrapper
+. Line unwrapper
+. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
+ole static). / Return number of employees created in system without external
+unter
+. Program tworzący plik o podanej nazwie / Program which creates a file with given
+me
+. j.w. i zapisujący do niego treść / Program which creates a file with given name and
 puts content to it
 
 MEDIUM
 
-22. Program zliczający katalogi / Write a program that counts directories
-23. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories
-except ones from list (list from properties file)
-24. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a
-program that counts directories except ones from list + directory list can be created
-manually in the program
-25. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
-26. Calculator
-27. Number sorter
-28. Number sorter with extra criterias
-29. Word completion (ext → extra, extramarital, extraterrestrial…)
-30. A guessing game
-31. War (card game)
-32. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z
-LinkedList). / Remove nth element from the list (you have your own node structure)
-33. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający /
-Check if every opening bracket has corresponding closing bracket
-34. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z
-rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can
-add a product and quantity and at the end it calculates amount you need to pay. There
-can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where
-Y is a price of the product “A”]
-35. Poker Hand Evaluator (You have five cards, what poker hand it is?)
-36. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie
-litery, cyfry itd). / Password validator based on several conditions (length, special
-characters, big/small letters, digits, etc)
-37. Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
-38. Text to CSV converter
-39. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays
-content of file which name was provided
-40. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator).
-/ Getting notifications about subscribed user (simple observer pattern)
+. Program zliczający katalogi / Write a program that counts directories
+. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories except ones from list (list from properties file)
+. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a program that counts directories except ones from list + directory list can be created manually in the program
+. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
+. Calculator
+. Number sorter
+. Number sorter with extra criterias
+. Word completion (ext → extra, extramarital, extraterrestrial…)
+. A guessing game
+. War (card game)
+. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z LinkedList). / Remove nth element from the list (you have your own node structure)
+. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający / Check if every opening bracket has corresponding closing bracket
+. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can add a product and quantity and at the end it calculates amount you need to pay. There can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where Y is a price of the product “A”]
+. Poker Hand Evaluator (You have five cards, what poker hand it is?)
+. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd). / Password validator based on several conditions (length, special characters, big/small letters, digits, etc)
+. Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
+. Text to CSV converter
+. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays content of file which name was provided
+. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator)/ Getting notifications about subscribed user (simple observer pattern)
 
 HARD
 
-41. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that
-validate HTML using existing validator
-42. Prosty MD → HTML / Simple Markdown to HTML converter
-43. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
-44. Prosty walidator HTML 5 / Simple HTML 5 validator
-45. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i
+. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that validates HTML using existing validator
+. Prosty MD → HTML / Simple Markdown to HTML converter
+. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
+. Prosty walidator HTML 5 / Simple HTML 5 validator
+. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i
 listowanie plików w katalogu)./ command line (2 operations: changing directory,
 listing files in a directory)
-46. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i
-czarnych) / You have a chess board, calculate “chess positions” (numerical value of
-white and black figures)
-47. Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal
-move
-48. Oto plansza szachów, podaj zagrożone figury / You have a chess board, show
-threatened figures
-49. Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
+. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych) / You have a chess board, calculate “chess positions” (numerical value of white and black figures)
+. Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal move
+. Oto plansza szachów, podaj zagrożone figury / You have a chess board, show threatened figures
+. Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
 
 IMPOSSIBLE
 
-50. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą
-sekwencję ruchów do wykonania) / Program which plays chess game for the beginner
-(computer should have simple sequence of moves)
-51. OX via functions
-52. Snake [gra] / Snake [Game]
+. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania) / Program which plays chess game for the beginner (computer should have simple sequence of moves)
+. OX via functions
+. Snake [gra] / Snake [Game]
 
 === Karol and Tomek
 

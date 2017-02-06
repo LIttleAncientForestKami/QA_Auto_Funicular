@@ -2,12 +2,6 @@
 [data-background="green"]
 == Org matters
 
-[CAUTION]
-.Prerequisites
-====
-These are to be completed before training begins!
-====
-
 Breaks - as you wish
 Tempo - as you wish (but do 50 programs)
 Questions - also as you wish
@@ -42,3 +36,26 @@ WARNING: *Coding, testing and infrastructure* are what you are graded upon!
 IMPORTANT: This training is for you. Get as much as you humanly can.
 
 image::question-mark.jpg[]
+
+=== Demystifying the job
+
+Have some vinegar, cause you already had too much kool-aid.
+
+[TIP]
+.Hard work required
+====
+
+https://www.youtube.com/watch?v=BgdBtPdHSYM[Human body in numbers]
+
+With us being this complex, what do you think a whole branch of programming/testing will be if not something huge and complicated?
+====
+
+[CAUTION]
+.Prerequisites
+====
+are to be completed before training begins!
+
+You are expected to read a few papers and go through mandatory courses.
+
+https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs/prereqs.pdf[prereqs.pdf link]
+====

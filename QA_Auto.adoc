@@ -11,29 +11,16 @@
 
 Main page for practice funicular ;-)
 
+image::BudapestFunicular.jpg[]
+
 include::Org.adoc[]
-
-== Demystifying the job
-
-Have some vinegar, cause you already had too much kool-aid.
-
-[TIP]
-.Hard work required
-====
-
-https://www.youtube.com/watch?v=BgdBtPdHSYM[Human body in numbers]
-
-With us being this complex, what do you think a whole branch of programming/testing will be if not something huge and complicated?
-====
-
-You are expected to read a few papers and go through mandatory courses.
-
-https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs/prereqs.pdf[prereqs.pdf link]
 
 include::50ProgramsChallenged.adoc[]
 
 include::ToolsIntroduction.adoc[]
 
 include::TestNG.adoc[]
+
+include::CodeCoverage.adoc[]
 
 include::Theory.adoc[]
