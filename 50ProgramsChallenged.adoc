@@ -1,5 +1,7 @@
 == 50 programs in a week
 
+TIP: http://lafk.pl/QA_Auto_Funicular/NewExercise.html[starting new exercise in steps]
+
 Since quantity is everything here...
 
 . You are to write 50 programs in a week
