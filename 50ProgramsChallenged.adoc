@@ -25,9 +25,8 @@ EASY
 . Hello Name
 . Hello List of Names
 . Zamiana liczby całkowitej na binarną. / Integer to binary converter
-. Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego
-iejsca po przecinku. / Program which round decimal number to specified precision
-. Prosty kalkulator walut. / Simple currency converter
+. Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision
+. Prosty przelicznik walut. / Simple currency converter
 . Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
 . Odwracanie stringa / Reverse the string
 . Sprawdzanie czy string jest palindromem / Check if string is a palindrome
@@ -35,20 +34,15 @@ iejsca po przecinku. / Program which round decimal number to specified precision
 . Liczenie słow w tekscie / Count words in text
 . Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
 . Procentowe występowanie liter w tekście / Percentege occurences letters in text
-. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local
-me to UTC converter
-. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from
-ring (use regular expression)
+. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local date with timezone to UTC converter (Java 8)
+. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from String (use regular expression)
 . Ile dni zostało do podanej daty / How many days are remaining to specified date
 . Line wrapper
 . Line unwrapper
 . Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
-ole static). / Return number of employees created in system without external
-unter
-. Program tworzący plik o podanej nazwie / Program which creates a file with given
-me
-. j.w. i zapisujący do niego treść / Program which creates a file with given name and
-puts content to it
+(pole static). / Return number of employees created in system without external counter (static field)
+. Program tworzący plik o podanej nazwie / Program which creates a file with given name
+. j.w. i zapisujący do niego treść / Program which creates a file with given name and puts content to it
 
 MEDIUM
 

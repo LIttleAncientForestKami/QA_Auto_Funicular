@@ -698,11 +698,10 @@ Karol and Tomek are good reviewers - ask them questions!
 <p>Zamiana liczby całkowitej na binarną. / Integer to binary converter</p>
 </li>
 <li>
-<p>Zaokrąglanie liczby zmiennoprzecinkowej w górę/dół/gdzie bliżej do podanego<br>
-iejsca po przecinku. / Program which round decimal number to specified precision</p>
+<p>Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision</p>
 </li>
 <li>
-<p>Prosty kalkulator walut. / Simple currency converter</p>
+<p>Prosty przelicznik walut. / Simple currency converter</p>
 </li>
 <li>
 <p>Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)</p>
@@ -726,12 +725,10 @@ iejsca po przecinku. / Program which round decimal number to specified precision
 <p>Procentowe występowanie liter w tekście / Percentege occurences letters in text</p>
 </li>
 <li>
-<p>Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local<br>
-me to UTC converter</p>
+<p>Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local date with timezone to UTC converter (Java 8)</p>
 </li>
 <li>
-<p>Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from<br>
-ring (use regular expression)</p>
+<p>Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from String (use regular expression)</p>
 </li>
 <li>
 <p>Ile dni zostało do podanej daty / How many days are remaining to specified date</p>
@@ -744,16 +741,13 @@ ring (use regular expression)</p>
 </li>
 <li>
 <p>Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika<br>
-ole static). / Return number of employees created in system without external<br>
-unter</p>
+(pole static). / Return number of employees created in system without external counter (static field)</p>
 </li>
 <li>
-<p>Program tworzący plik o podanej nazwie / Program which creates a file with given<br>
-me</p>
+<p>Program tworzący plik o podanej nazwie / Program which creates a file with given name</p>
 </li>
 <li>
-<p>j.w. i zapisujący do niego treść / Program which creates a file with given name and<br>
-puts content to it</p>
+<p>j.w. i zapisujący do niego treść / Program which creates a file with given name and puts content to it</p>
 </li>
 </ol>
 </div>
@@ -1019,6 +1013,64 @@ listing files in a directory)</p>
 <p><code>git push -u origin master</code>, at first (to set tracking), then just <code>git push</code>, publishes your changes</p>
 </dd>
 </dl>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<div class="title">git flow</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>go to folder where you have your files (GUI or terminal)</p>
+</li>
+<li>
+<p>if GUI: (context menu) Git Bash here</p>
+</li>
+<li>
+<p>git init</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>By now you have initialised empty git repository.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>git remote add YOUR_NAME_HERE|origin URL_FROM_GITHUB(clone url)</p>
+</li>
+<li>
+<p>git add nameOfFile nameOfOtherFile nameOfYetAnotherFileAndSoOnUntilAllFilesAreAdded<br>
+git add . (beware, this pulls in .class unless you have .gitignore)</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>To ignore class files, open .gitignore in editor and type one line:</p>
+</div>
+<div class="paragraph">
+<p>*.class</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>git pull origin master (if you&#8217;ve initialized your repo with some commit before, like with readme, license and gitignore)</p>
+</li>
+<li>
+<p>git commit -m "here goes description of your changes that better be good and different from this text I&#8217;m writing here"</p>
+</li>
+<li>
+<p>git push -u origin master</p>
+</li>
+</ol>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">

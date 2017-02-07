@@ -1,7 +1,0 @@
-= Hello World
-
-Program needs to output "Hello World" to the console.
-
-Suggested reading:
-* System.out.println() JavaDoc
-* https://docs.oracle.com/javase/tutorial/getStarted/index.html

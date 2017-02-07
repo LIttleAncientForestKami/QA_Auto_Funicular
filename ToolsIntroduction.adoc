@@ -31,6 +31,31 @@ pull :: `git pull origin master`, synchronizes changes in case other folks (or y
 
 push :: `git push -u origin master`, at first (to set tracking), then just `git push`, publishes your changes
 
+[IMPORTANT]
+.git flow
+====
+
+1. go to folder where you have your files (GUI or terminal)
+2. if GUI: (context menu) Git Bash here
+3. git init
+
+By now you have initialised empty git repository.
+
+4. git remote add YOUR_NAME_HERE|origin URL_FROM_GITHUB(clone url)
+5. git add nameOfFile nameOfOtherFile nameOfYetAnotherFileAndSoOnUntilAllFilesAreAdded 
+ git add . (beware, this pulls in .class unless you have .gitignore)
+
+To ignore class files, open .gitignore in editor and type one line:
+
+*.class
+
+6. git pull origin master (if you've initialized your repo with some commit before, like with readme, license and gitignore)
+
+7. git commit -m "here goes description of your changes that better be good and different from this text I'm writing here"
+
+8. git push -u origin master
+====
+
 ==== Untold truths
 
 . `origin` is a remote
