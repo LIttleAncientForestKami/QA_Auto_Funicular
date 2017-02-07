@@ -1,0 +1,13 @@
+# Zamiana liczby całkowitej na binarną. / Integer to binary converter
+
+One of few algorithmic tasks. Please try on your own before researching on the internet how to do this.
+
+User gives you a number, you are to return it's binary representation.
+
+0 -> 0
+1 -> 1
+2 -> 01
+3 -> 11
+...
+
+You may assume you are getting a whole number, not a floating-point one (type int).

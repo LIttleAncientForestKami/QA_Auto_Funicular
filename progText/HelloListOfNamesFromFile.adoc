@@ -1,0 +1,7 @@
+# Hello List of Names
+
+Input: text file with list of name
+Output: as many Hello _name here_ as there are names in the file
+
+Suggested reading:
+http://docs.oracle.com/javase/tutorial/essential/io/file.html#common

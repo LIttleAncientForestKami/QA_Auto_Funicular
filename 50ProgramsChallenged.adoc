@@ -21,11 +21,13 @@ Published program :: program that is available in it's own directory on GitHub r
 
 EASY
 
-. ./progText/HelloWorld.md[Hello World]
-. Hello Name
-. Hello List of Names
-. Zamiana liczby całkowitej na binarną. / Integer to binary converter
-. Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision
+
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloWorld.html[Hello World]
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloName.html[Hello Name]
+. http://lafk.pl/QA_Auto_Funicula./progText/HelloListOfNames.html[Hello List of Names]
+. http://lafk.pl/QA_Auto_Funicula/progText/HelloListOfNamesFromFile.html[Hello List of Names From File]
+. http://lafk.pl/QA_Auto_Funicular/progText/Int2Bin.html[decimal int -> bin converter]
+. http://lafk.pl/QA_Auto_Funicular/progText/Rounding.html[Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision]
 . Prosty przelicznik walut. / Simple currency converter
 . Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
 . Odwracanie stringa / Reverse the string

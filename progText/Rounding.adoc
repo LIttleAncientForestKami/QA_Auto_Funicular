@@ -1,0 +1,11 @@
+# Round decimal number
+
+Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision
+
+Input: decimal number
+Output: whole number, rounded up or down.
+
+Input: decimal number, precision
+Output: decimal number, rounder up or down with given precision.
+
+A bit of algorithmics will be handy.

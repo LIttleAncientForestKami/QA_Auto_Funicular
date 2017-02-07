@@ -1,0 +1,8 @@
+# Hello Name
+
+Write a personalized greeting to user, by name.
+
+* using arguments passed to JVM (main method `args` array)
+* asking a user for a name and using it
+
+Hint: `Scanner` API or JVM arguments via `String [] args`

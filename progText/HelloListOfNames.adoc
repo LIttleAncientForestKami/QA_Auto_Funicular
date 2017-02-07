@@ -1,0 +1,8 @@
+# Hello List of Names
+
+. code a method that accepts ArrayList<String> namesList as parameter.
+. this method is to return an ArrayList<String> with "Hello <name>" inside
+
+So, passing in ArrayList with Ania, Tomek, Mariia results in returning an ArrayList with Hello Ania, Hello Tomek and Hello Mariia.
+
+Hint: ArrayList API.
