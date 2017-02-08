@@ -1,0 +1,15 @@
+# Liczenie samogłosek / Count vowels in the word
+
+Input: a word
+Output: a number of vowels
+
+## Examples:
+
+glorious -> 4
+Alesia -> 4
+aliesia -> 4
+teddy-bear -> 4
+mother -> 2
+experience -> 5
+
+CAUTION: Vowels like é, ą, ę, ó - made via diacritical signs - do not count as vowels for this task. Only _a_, _e_, _i_, _o_, _u_ and _y_ count.

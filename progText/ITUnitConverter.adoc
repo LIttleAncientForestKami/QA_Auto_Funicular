@@ -1,0 +1,20 @@
+# Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
+
+Input: amount, unit, unit to convert to
+Output: amount of converted unit
+
+Examples:
+
+. 1, MB, KB -> 1000
+. 1, MB, Mb -> 8
+. 1, MiB, KiB -> 1024
+
+Units to work with:
+
+. data transfer speed
+. bandwith throughput
+. bits, bytes and their larger friends (both power of 10 and 2)
+
+Hint: enumeration, `enum` keyword, powers of 2 and of 10, so `Math` API
+
+TIP: you may want to read up on binary and decimal prefixes: mebi vs mega, etc.

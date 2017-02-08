@@ -1,0 +1,10 @@
+# Odwracanie stringa / Reverse the string
+
+Input: String
+Output: reversed String.
+
+Examples:
+
+Anna -> annA
+example -> elpmaxe
+reverse -> esrever

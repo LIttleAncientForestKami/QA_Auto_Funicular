@@ -23,19 +23,19 @@ Published program :: program that is available in it's own directory on GitHub r
 
 EASY
 
-
-. http://lafk.pl/QA_Auto_Funicular/progText/HelloWorld.html[Hello World]
-. http://lafk.pl/QA_Auto_Funicular/progText/HelloName.html[Hello Name]
-. http://lafk.pl/QA_Auto_Funicula./progText/HelloListOfNames.html[Hello List of Names]
-. http://lafk.pl/QA_Auto_Funicula/progText/HelloListOfNamesFromFile.html[Hello List of Names From File]
-. http://lafk.pl/QA_Auto_Funicular/progText/Int2Bin.html[decimal int -> bin converter]
-. http://lafk.pl/QA_Auto_Funicular/progText/Rounding.html[Zaokrąglanie liczby zmiennoprzecinkowej (gdzie bliżej) do podanego miejsca po przecinku. / Round decimal number up or down and to specified precision]
-. Prosty przelicznik walut. / Simple currency converter
-. Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
-. Odwracanie stringa / Reverse the string
-. Sprawdzanie czy string jest palindromem / Check if string is a palindrome
-. Liczenie samogłosek / Count vowels in the word
-. Liczenie słow w tekscie / Count words in text
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloWorld.html
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloName.html
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloListOfNames.html
+. http://lafk.pl/QA_Auto_Funicular/progText/HelloListOfNamesFromFile.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Int2Bin.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ITUnitConverter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Rounding.html
+. http://lafk.pl/QA_Auto_Funicular/progText/SimpleCurrencyConverter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/UnitConverter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/StringCountVowels.html
+. http://lafk.pl/QA_Auto_Funicular/progText/StringReverse.html
+. http://lafk.pl/QA_Auto_Funicular/progText/StringPalindrome.html
+. http://lafk.pl/QA_Auto_Funicular/progText/WordCounter.html
 . Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
 . Procentowe występowanie liter w tekście / Percentege occurences letters in text
 . Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local date with timezone to UTC converter (Java 8)

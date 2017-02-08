@@ -1,0 +1,11 @@
+# Liczenie słow w tekscie / Count words in text
+
+String -> int
+
+## Examples:
+
+"my mother is incredible" -> 4
+"I am handsome" -> 3
+"This teddy-bear is cute" -> 4
+"Hanna Gronkiewicz-Waltz na prezydenta" -> 4
+"7 years later" -> 3

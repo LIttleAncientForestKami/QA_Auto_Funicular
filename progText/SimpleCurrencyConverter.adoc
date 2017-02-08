@@ -1,0 +1,16 @@
+# Prosty przelicznik walut. / Simple currency converter
+
+Program is to tell how much in currency B is Y amount of currency A.
+
+Examples:
+
+. how many EUROs is 5 PLN?
+. how many PLNs is 7,5 EURO?
+
+Currencies:
+
+. zł, PLN, Polish złoty
+. UAH, Ukrainian hrywna
+. your own chosen currency
+. £, GBP, British pound
+. €, EUR, euro
