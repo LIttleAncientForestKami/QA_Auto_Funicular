@@ -25,7 +25,11 @@ Characterization::
 
 and there ARE others
 
-[insert fitting image here]
+image::softwaretesting.gif[]
+
+image::testing-types.jpg[]
+
+image::what-is-performance-testing.jpg[]
 
 === Tests and boxes
 
@@ -33,6 +37,13 @@ and there ARE others
 . White
 . Grey
 
+[TIP]
+.Don't close yourself in a black box
+====
+Not all systems need to be treated like that, despite how convenient it is
+
+image::exploding-black-box.jpg[]
+====
 
 === Test pyramid
 
@@ -49,4 +60,4 @@ Data? Background? Research proving it?
 . Compare with Golden Master
 . Act on differences, if any
 
-
+include::TestingProblems.adoc[]

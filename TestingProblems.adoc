@@ -1,0 +1,58 @@
+== What bites you when you test things?
+
+CAUTION: this part explains problems and sometimes hints, sometimes offers solutions
+
+=== Tests structure
+
+. given - when - then
+. arrange - act - assert
+
+First you arrange your needed pieces, then you "act" - call method you're testing. Finally, you assert that result is as you need it.
+
+Collect _given_ info, that you have _when_ your tested method is called, _then_ check if results are as they should be.
+
+=== Printouts 
+
+Compare two programs with same functionality (printing Hello World):
+
+. in main method, hard-coded `System.out.println("Hello World")`
+. in main method, call to `App.getGreeting` that returns a `String`
+
+You can easily test only second one.
+
+INFO: there's a reward if you tell me how to test `System.out.print`
+
+=== Static methods
+
+should always just rely on their input parameters and nothing else. 
+
+=== Scanner
+
+IMPORTANT: only main class gets a proper console. Running anything that relies on a console from test, will get you a console that never gets inputs.
+
+CAUTION: do *not* close a Scanner opened with System.in input stream. You will lose the possibility to write to console.
+
+[[app-listing]]
+[source, java]
+.Crucial points marked with comments
+----
+    @Test public void nonExistentPathGetsAZero() {
+        App classUnderTest = new App();
+        // seting my own input stream so in unit test scanner gets it
+        final String pathFromUser = "aaaaa";
+        System.setIn(new ByteArrayInputStream(pathFromUser.getBytes()));
+        assertEquals(classUnderTest.count(Paths.get(pathFromUser)), 0,
+                "path " + pathFromUser + " doesn't exist, so should be zero");
+        // resetting the scanner back
+        System.setIn(System.in);
+    }
+----
+
+[CAUTION]
+.Interactive tests are disruptive
+====
+Interactive means "demanding action". 
+These tests require some action from a human, so when you will automate... they will pause things waiting for input.
+
+TestNG has groups that may help with this.
+====
