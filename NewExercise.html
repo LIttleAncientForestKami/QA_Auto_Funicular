@@ -466,8 +466,39 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>this should have both App.java, AppTest.java, necessary gradle files and .gitignore</p>
 </li>
+<li>
+<p>this should <strong>NOT</strong> have</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>neither dirs like <code>.gradle</code>, <code>.idea</code> or <code>.settings</code></p>
+</li>
+<li>
+<p>nor any files like: <code>.class</code>, <code>.iml</code>, <code>.classpath</code>, <code>.project</code></p>
+</li>
 </ol>
 </div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><code>git commit -m "here you need to give some meaningful description"</code></p>
+</li>
+<li>
+<p>now go to GitHub and create a repository</p>
+</li>
+<li>
+<p>copy it&#8217;s clone link (green button saying Clone or Download)</p>
+</li>
+<li>
+<p>in your terminal, in a dir with your repo: <code>git remote add origin LINK_HERE</code></p>
+</li>
+<li>
+<p><code>git push -u origin master</code></p>
+</li>
+<li>
+<p>your repository now should have your files</p>
 </li>
 </ol>
 </div>
@@ -639,7 +670,7 @@ nbdist/
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-02-07 17:31:53 CET
+Last updated 2017-02-08 11:40:12 CET
 </div>
 </div>
 </body>
