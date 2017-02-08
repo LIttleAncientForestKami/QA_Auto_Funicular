@@ -1,1 +1,19 @@
 # Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
+
+Input: amount, unit, unit to convert to
+Output: amount of converted unit
+
+Examples:
+
+. 1, kg, g -> 1000
+. 1, cm, m -> 0,01
+. 0, K, C -> -273,15
+
+Units to work with:
+
+. metric system: height, distance, weight
+. weird system (one with miles, feet, yards and pounds): same
+. temperatures: Kelvins, Celsius, Fahrenheits
+
+Hint: enumeration, `enum` keyword 
+

@@ -1,4 +1,4 @@
-# Konwerter jednostek temp, długości, itp. / Units converter (temperature, length, etc)
+# Konwerter jednostek informatycznych / IT units converter
 
 Input: amount, unit, unit to convert to
 Output: amount of converted unit

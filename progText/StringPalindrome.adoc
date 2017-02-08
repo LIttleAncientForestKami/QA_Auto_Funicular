@@ -4,11 +4,11 @@ Palindrome :: string read the same way from both sides
 
 ## Examples: 
 
-Anna -> true
-annA -> true
-AnNa -> true
-abc -> false
-a -> true
-aa -> true
-ab -> false
-kayak -> true
+. Anna -> true
+. annA -> true
+. AnNa -> true
+. abc -> false
+. a -> true
+. aa -> true
+. ab -> false
+. kayak -> true

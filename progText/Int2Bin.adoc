@@ -4,10 +4,16 @@ One of few algorithmic tasks. Please try on your own before researching on the i
 
 User gives you a number, you are to return it's binary representation.
 
-0 -> 0
-1 -> 1
-2 -> 01
-3 -> 11
-...
+. 0 -> 0
+. 1 -> 1
+. 2 -> 01
+. 3 -> 11
+. etc.
 
-You may assume you are getting a whole number, not a floating-point one (type int).
+[TIP]
+====
+
+. assume you are getting a whole number, not a floating-point one.
+. either `int -> String` or `int -> int[]`
+
+====
