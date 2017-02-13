@@ -424,6 +424,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+<div class="title">Empty repo or there&#8217;ll be problems</div>
+<div class="paragraph">
+<p>Create <strong>EMPTY</strong> GitHub repository!
+No files - do NOT initialize it with README, license or anything!
+Otherwise you will have problems with <code>git push</code> or <code>git pull</code>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+if you have, try <code>git pull origin master --allow-unrelated-histories</code> and press <code>:wq</code> in the window that comes after.
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -486,7 +515,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><code>git commit -m "here you need to give some meaningful description"</code></p>
 </li>
 <li>
-<p>now go to GitHub and create a repository</p>
+<p>now go to GitHub and create a repository (<strong>EMPTY!!</strong> as you have been cautioned at the top of the page)</p>
 </li>
 <li>
 <p>copy it&#8217;s clone link (green button saying Clone or Download)</p>
@@ -672,7 +701,7 @@ nbdist/
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-02-08 15:35:33 CET
+Last updated 2017-02-13 16:12:37 CET
 </div>
 </div>
 </body>

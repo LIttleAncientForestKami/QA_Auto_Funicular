@@ -1,5 +1,15 @@
 # New exercise in steps
 
+[CAUTION]
+.Empty repo or there'll be problems
+====
+Create **EMPTY** GitHub repository! 
+No files - do NOT initialize it with README, license or anything!
+Otherwise you will have problems with `git push` or `git pull`.
+
+TIP: if you have, try `git pull origin master --allow-unrelated-histories` and press `:wq` in the window that comes after.
+====
+
 . choose your exercise
 . create new directory for it
 . go to that directory
@@ -17,7 +27,7 @@
 ... neither dirs like `.gradle`, `.idea` or `.settings`
 ... nor any files like: `.class`, `.iml`, `.classpath`, `.project` 
 . `git commit -m "here you need to give some meaningful description"`
-. now go to GitHub and create a repository
+. now go to GitHub and create a repository (**EMPTY!!** as you have been cautioned at the top of the page)
 . copy it's clone link (green button saying Clone or Download)
 . in your terminal, in a dir with your repo: `git remote add origin LINK_HERE`
 . `git push -u origin master`
