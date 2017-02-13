@@ -90,6 +90,17 @@ IMPOSSIBLE
 . OX via functions
 . Snake [gra] / Snake [Game]
 
+
+PROGRAMS TO TEST (in each program there is README file with instruction how to prepare and run):
+
+. MyBooksReview: git@github.com:caroo7/MyBooksReview.git 
+		 git@github.com:tdudzik/mybooksreviews.git
+. TicTacToe: git@github.com:caroo7/TTT.git
+. RockPaperScissors: git@github.com:caroo7/RockPaperScissors.git
+. CurrencyConverter: git@github.com:tdudzik/currencyconverter.git
+
+
+
 === Karol and Tomek
 
 Implement five from:
