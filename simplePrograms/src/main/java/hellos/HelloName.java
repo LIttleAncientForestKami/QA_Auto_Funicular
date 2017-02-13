@@ -1,3 +1,5 @@
+package hellos;
+
 import java.util.Scanner;
 
 /*
@@ -19,6 +21,6 @@ public class HelloName {
     public static void main(String[] args) {
         HelloName a = new HelloName();
         System.out.println(a.getGreeting(a.askUserForAName()));
-//        System.out.println(new HelloName().getGreeting(args[0]));
+//        System.out.println(new hellos.HelloName().getGreeting(args[0]));
     }
 }

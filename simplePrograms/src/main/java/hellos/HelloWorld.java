@@ -1,3 +1,5 @@
+package hellos;
+
 /**
  * @author LAFK_pl, Tomasz.Borek@gmail.com
  */
