@@ -8,12 +8,14 @@ public class GameStarter {
     static void start() {
         InputHandler ih = new InputHandler();
 
-        // cards (not done)
         Deck d = new Deck();
         d.shuffle();
-        Player p1 = new Player(ih.askForPlayerName(), d.dealPlayerCards());
-        Player p2 = new Player(ih.askForPlayerName(), d.dealPlayerCards());
+        System.out.println(d.dealPlayer1Cards());
+        System.out.println(d.dealPlayer2Cards());
 
+
+//        Player p1 = new Player(ih.askForPlayerName(), d.dealPlayer1Cards());
+//        Player p2 = new Player(ih.askForPlayerName(), d.dealPlayer2Cards());
     }
 
 }
