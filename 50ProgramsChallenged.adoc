@@ -112,3 +112,13 @@ Rules are 'a tad' different:
 . each program has own repo
 . test coverage: 33% minimum
 . suitable for extension later
+
+
+PROGRAMS TO TEST (in each program there is README file with instruction how to prepare and run):
+
+- MyBooksReview: git@github.com:caroo7/MyBooksReview.git 
+		 git@github.com:tdudzik/mybooksreviews.git
+- TicTacToe: git@github.com:caroo7/TTT.git
+- RockPaperScissors: git@github.com:caroo7/RockPaperScissors.git
+- CurrencyConverter: git@github.com:tdudzik/currencyconverter.git
+
