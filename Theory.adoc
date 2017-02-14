@@ -7,16 +7,21 @@
 
 === Kinds of tests
 
-Unit::
-Integration::
-End to end::
+Unit:: fast, independent, clear, live documentation, focused, quick feedback loop, unit of code should be small, single responsibility (tests one thing), doesn't talk to network, file system, database etc. Considered to be a base of a test pyramid (most systems should have highest number of unit than other tests).
+
+Integration:: usually considered to verify DB, but in reality they are also used to verify integration between components, 3rd party or our systems etc. Middle layer in test pyramid, same as system tests.
+
+End to end:: E2E or GUI tests, they emulate users, usually take care of whole scenarios, are considered to be a trap when grow too much in importance / numbers and should be smallest out of whole test pyramid.
+
+
+Manual:: all kinds of tests that are done by humans by hand
+
+Automated::
+System::
 Acceptance::
 Smoke::
 Functional::
-Manual::
-Automated::
 Performance::
-System::
 Stress::
 Load::
 Endurance::
@@ -33,9 +38,10 @@ image::what-is-performance-testing.jpg[]
 
 === Tests and boxes
 
-. Black
-. White
-. Grey
+Black:: no knowledge of system's insides, no tuning possible. https://www.youtube.com/watch?v=Wi75S5TTfQ0[So-so video about it, but short and it explains some things].
+White:: full knowledge of tested system, all tunings possible. https://www.youtube.com/watch?v=3bJcvBLJViQ[Much better than black-box video about this type of testing].
+Grey:: partial knowledge, some tunings.
+
 
 [TIP]
 .Don't close yourself in a black box
@@ -47,9 +53,13 @@ image::exploding-black-box.jpg[]
 
 === Test pyramid
 
-[insert image]
+Reading material:
 
-Data? Background? Research proving it?
+. http://james-willett.com/2016/09/the-evolution-of-the-testing-pyramid/[Evolution of tests pyramid, excellent post, quite in-line with the lecture]
+. https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid[Book author on testing writes about forgotten layer - shortest read]
+. https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html[E2E tests are a trap]
+. https://martinfowler.com/bliki/TestPyramid.html[Fowler about it]
+. https://www.linkedin.com/pulse/unit-testing-software-quality-empirical-research-results-avteniev[Unit tests (with TDD) empirical research]
 
 === Golden Master
 

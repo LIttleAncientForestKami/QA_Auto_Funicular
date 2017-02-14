@@ -1252,15 +1252,27 @@ more about that in week 3, during infrastructure part
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Unit</dt>
+<dd>
+<p>fast, independent, clear, live documentation, focused, quick feedback loop, unit of code should be small, single responsibility (tests one thing), doesn&#8217;t talk to network, file system, database etc. Considered to be a base of a test pyramid (most systems should have highest number of unit than other tests).</p>
+</dd>
 <dt class="hdlist1">Integration</dt>
+<dd>
+<p>usually considered to verify DB, but in reality they are also used to verify integration between components, 3rd party or our systems etc. Middle layer in test pyramid, same as system tests.</p>
+</dd>
 <dt class="hdlist1">End to end</dt>
+<dd>
+<p>E2E or GUI tests, they emulate users, usually take care of whole scenarios, are considered to be a trap when grow too much in importance / numbers and should be smallest out of whole test pyramid.</p>
+</dd>
+<dt class="hdlist1">Manual</dt>
+<dd>
+<p>all kinds of tests that are done by humans by hand</p>
+</dd>
+<dt class="hdlist1">Automated</dt>
+<dt class="hdlist1">System</dt>
 <dt class="hdlist1">Acceptance</dt>
 <dt class="hdlist1">Smoke</dt>
 <dt class="hdlist1">Functional</dt>
-<dt class="hdlist1">Manual</dt>
-<dt class="hdlist1">Automated</dt>
 <dt class="hdlist1">Performance</dt>
-<dt class="hdlist1">System</dt>
 <dt class="hdlist1">Stress</dt>
 <dt class="hdlist1">Load</dt>
 <dt class="hdlist1">Endurance</dt>
@@ -1289,18 +1301,21 @@ more about that in week 3, during infrastructure part
 </div>
 <div class="sect2">
 <h3 id="_tests_and_boxes">Tests and boxes</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Black</p>
-</li>
-<li>
-<p>White</p>
-</li>
-<li>
-<p>Grey</p>
-</li>
-</ol>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Black</dt>
+<dd>
+<p>no knowledge of system&#8217;s insides, no tuning possible. <a href="https://www.youtube.com/watch?v=Wi75S5TTfQ0">So-so video about it, but short and it explains some things</a>.</p>
+</dd>
+<dt class="hdlist1">White</dt>
+<dd>
+<p>full knowledge of tested system, all tunings possible. <a href="https://www.youtube.com/watch?v=3bJcvBLJViQ">Much better than black-box video about this type of testing</a>.</p>
+</dd>
+<dt class="hdlist1">Grey</dt>
+<dd>
+<p>partial knowledge, some tunings.</p>
+</dd>
+</dl>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1326,7 +1341,26 @@ more about that in week 3, during infrastructure part
 <div class="sect2">
 <h3 id="_test_pyramid">Test pyramid</h3>
 <div class="paragraph">
-<p>Data? Background? Research proving it?</p>
+<p>Reading material:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://james-willett.com/2016/09/the-evolution-of-the-testing-pyramid/">Evolution of tests pyramid, excellent post, quite in-line with the lecture</a></p>
+</li>
+<li>
+<p><a href="https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid">Book author on testing writes about forgotten layer - shortest read</a></p>
+</li>
+<li>
+<p><a href="https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html">E2E tests are a trap</a></p>
+</li>
+<li>
+<p><a href="https://martinfowler.com/bliki/TestPyramid.html">Fowler about it</a></p>
+</li>
+<li>
+<p><a href="https://www.linkedin.com/pulse/unit-testing-software-quality-empirical-research-results-avteniev">Unit tests (with TDD) empirical research</a></p>
+</li>
+</ol>
 </div>
 </div>
 <div class="sect2">
@@ -1524,7 +1558,7 @@ These tests require some action from a human, so when you will automate&#8230;&#
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-02-13 16:18:56 CET
+Last updated 2017-02-14 12:41:03 CET
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
