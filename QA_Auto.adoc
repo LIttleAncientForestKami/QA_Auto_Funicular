@@ -26,3 +26,5 @@ include::CodeCoverage.adoc[]
 include::Theory.adoc[]
 
 include::SeleniumPrograms.adoc[]
+
+include::ExemplaryApp.adoc[]

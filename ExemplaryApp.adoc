@@ -1,0 +1,13 @@
+== Exemplary app
+
+Based on a http://demos.telerik.com/kendo-ui/websushi[pretend sushi shop website], this app showcases couple of technologies, Selenium included.
+
+Done thanks to **Denys Khlivnyi** and **Anatolii Hanziuk**.
+
+=== GitHub repository
+
+. Fork https://github.com/LIttleAncientForestKami/AutomationTraining to your user account
+. Clone it 
+. Follow instructions in README.md
+.. skip points 2 (Gradle install) and 3 (SauceLabs credentials) for now
+
