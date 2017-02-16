@@ -32,7 +32,7 @@ and there ARE others
 
 image::softwaretesting.gif[]
 
-image::testing-types.jpg[]
+image::testing-types.jpeg[]
 
 image::what-is-performance-testing.jpg[]
 

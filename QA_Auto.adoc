@@ -13,6 +13,8 @@ Main page for practice funicular ;-)
 
 image::BudapestFunicular.jpg[]
 
+TIP: http://www.epicrapbattlesofhistory.com/ for some irrelevant rapping fun ;-)
+
 include::Org.adoc[]
 
 include::50ProgramsChallenged.adoc[]
@@ -24,6 +26,8 @@ include::TestNG.adoc[]
 include::CodeCoverage.adoc[]
 
 include::Theory.adoc[]
+
+include::Selectors.adoc[]
 
 include::SeleniumPrograms.adoc[]
 

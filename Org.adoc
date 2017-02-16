@@ -59,3 +59,5 @@ You are expected to read a few papers and go through mandatory courses.
 
 https://github.com/LIttleAncientForestKami/QA_Auto_Funicular/blob/master/prereqs/prereqs.pdf[prereqs.pdf link]
 ====
+
+TIP: There's an app called https://play.google.com/store/apps/details?id=com.sololearn.java&hl=pl[Learn Java] for Android. It's very step-by-step.

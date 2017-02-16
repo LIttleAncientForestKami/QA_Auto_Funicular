@@ -1,0 +1,35 @@
+== Selectors 
+
+All selectors are for choosing elements from the page, so you can operate on them (input data, highlight, press, click, etc.).
+
+Tag :: selecting by tag gives you all elements with given tag, like *p*aragraph.
+
+ID :: selects one element on a page with it's specific ID. 
+
+Class :: selects all elements that have given class.
+
+----
+<P>I am a paragraph. You can select me by type.</P>
+<P class="little">I am also a paragraph, and I was marked with class 'little'. There should be more elements like me, not necessarily paragraphs which will bear a same class.</P>
+<P id="special">I am a SPECIAL paragraph cause I have an ID. No other element should have same ID. Unique, that's what I am.</P>
+----
+
+Selectors allow you to get not just by ID or CLASS, but with much greater flexibility. You can get first child, n-th child, n-th sibling (or first, or last) and you can even combine things further (like, n-th child with a class having some attribute).
+
+=== CSS or XPath?
+
+CSS :: *Cascading Style Sheets* - way of prettifying HTML.
+
+XPath :: gives you a *path* through *XML* document, hence *XPath*. Way to locate an element in an XML document.
+
+CSS selectors and XPath selectors allow for the same thing - element location.
+
+Differences (and criteria for choosing one over the other):
+
+1. Speed
+2. Team preference / know-how
+
+TIP: http://flukeout.github.io/[CSS selectors game] - pass it!
+
+CAUTION: https://www.w3schools.com/xml/xpath_syntax.asp[so-so resource on XPath] but it should get you started. Afterwards go to http://www.topswagcode.com/xpath/[a blatant and uncredited ripoff the original game, for XPath].
+
