@@ -2,7 +2,7 @@
 
 Some say one, some say the other.
 
-http://www.slideshare.net/ktoso/tdd-droga-do-oswiecenia-w-scali?qid=c815f939-9760-44e3-8d41-212c17019d68&v=&b=&from_search=2[Kinds of tests on a Hell - Heaven scale]
+http://www.slideshare.net/ktoso/tdd-droga-do-oswiecenia-w-scali?qid=c815f939-9760-44e3-8d41-212c17019d68&v=&b=&from_search=2[Kinds of tests on a Hell - Heaven scale] - slides 7 - 13 mostly
 
 https://lafkblogs.wordpress.com/2013/08/29/full-tdd-cycle/[My blog article on a full TDD cycle with Prezi presentation about it]
 

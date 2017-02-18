@@ -85,9 +85,9 @@ listing files in a directory)
 
 IMPOSSIBLE
 
-. Program rozgrywający partię szachów dla początkującego (komputer niech ma prostą sekwencję ruchów do wykonania) / Program which plays chess game for the beginner (computer should have simple sequence of moves)
-. OX via functions
-. Snake [gra] / Snake [Game]
+. http://lafk.pl/QA_Auto_Funicular/progText/Chess.html
+. http://lafk.pl/QA_Auto_Funicular/progText/OX.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Snake.html
 
 === Karol and Tomek
 

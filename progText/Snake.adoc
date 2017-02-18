@@ -1,0 +1,15 @@
+# Snake [gra] / Snake [Game]
+
+* Game is played within rectangular area.
+* Borders are impassable. 
+* Snake grows after it eats something.
+* Consummables appear randomly within the area.
+* Snake has to be in constant motion.
+* Snake dies if it collides with area border or with itself.
+* Player controls the snake with arrow keys.
+
+CAUTION: If player presses the arrow opposite to the direction the snake is moving in currently, nothing should happen. So, snake going left won't _reverse_ just cause right arrow was pressed.
+
+TIP: https://www.google.pl/search?q=snake+game&client=ubuntu&hs=lWa&channel=fs&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjb8_-Q15rSAhUE6CwKHXxfBYQQ_AUICCgB&biw=1600&bih=792[Graphical inspirations]
+
+IMPORTANT: JavaFX or Swing will be necessary here.

@@ -1,0 +1,7 @@
+# OX via functions
+
+Tic Tac Toe game, with O starting and X playing second.
+
+Board 3x3.
+
+Keep things in functions, I want to see code reuse and have that code testable.
