@@ -1,0 +1,4 @@
+# Program tworzący plik o podanej nazwie / Program which creates a file with given name
+
+. Ask user for a file name
+. Create that file name in current directory

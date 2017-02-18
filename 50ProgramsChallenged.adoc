@@ -37,16 +37,15 @@ EASY
 . http://lafk.pl/QA_Auto_Funicular/progText/StringPalindrome.html
 . http://lafk.pl/QA_Auto_Funicular/progText/WordCounter.html
 . Fizz Buzz / Fizz Buzz (https://en.wikipedia.org/wiki/Fizz_buzz)
-. Procentowe występowanie liter w tekście / Percentege occurences letters in text
-. Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local date with timezone to UTC converter (Java 8)
-. Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from String (use regular expression)
-. Ile dni zostało do podanej daty / How many days are remaining to specified date
-. Line wrapper
-. Line unwrapper
-. Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika
-(pole static). / Return number of employees created in system without external counter (static field)
-. Program tworzący plik o podanej nazwie / Program which creates a file with given name
-. j.w. i zapisujący do niego treść / Program which creates a file with given name and puts content to it
+. http://lafk.pl/QA_Auto_Funicular/progText/LettersPercentage.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DateWithTimezoneToUTCConverter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/StringNumbersRegex.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DateToDays.html
+. http://lafk.pl/QA_Auto_Funicular/progText/LineWrapper.html
+. http://lafk.pl/QA_Auto_Funicular/progText/LineUnWrapper.html
+. http://lafk.pl/QA_Auto_Funicular/progText/CountEmployees.html
+. http://lafk.pl/QA_Auto_Funicular/progText/CreateFile.html
+. http://lafk.pl/QA_Auto_Funicular/progText/CreateFileWithContent.html
 
 MEDIUM
 

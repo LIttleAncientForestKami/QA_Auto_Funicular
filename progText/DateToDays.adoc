@@ -1,0 +1,7 @@
+# Ile dni zostało do podanej daty / How many days are remaining to specified date
+
+Ask user for a date, then tell how much days are between today and that date.
+
+Use Java 8 Date and Time API.
+
+Hint: was coded live by Tomek in last Java day.

@@ -1,0 +1,12 @@
+# Zwróć wszystkie liczby znajdujące się w stringu (regex). / Return all numbers from String (use regular expression)
+
+Code a method that accepts a String and returns all the numbers present within:
+
+abrakadabra -> 0
+inu1 -> 1
+1i1n99u -> 3 (99 counts as one)
+
+Hint: Java regexes are within `Pattern` and `Matcher` classes, check API.
+
+Regex :: **Reg**ular **Ex**pression, so an expression that happens regularly (repeat itself). Special notation, popularized by Perl, allowing smooth operations on (parts of) text.
+

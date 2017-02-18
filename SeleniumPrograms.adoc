@@ -11,3 +11,5 @@ Each program has a README file with instruction how to prepare and run:
 === Whom to ask for instructions?
 caroo7 :: Karol
 tdudzik :: Tomek
+
+TIP: https://videoportal.epam.com/channel/KzPJ6BxJX5/videos?sortByAction=1[Selenium Course from EPAM network, very fresh, uploaded one day before our course started] - Maven-based

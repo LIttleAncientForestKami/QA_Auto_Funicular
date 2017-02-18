@@ -1,0 +1,7 @@
+# Wypisz liczbę pracowników stworzonych w systemie bez zewnętrznego licznika / Count employee objects WITHOUT internal counter.
+
+* Create and Employee class.
+* Have a counter for all employee objects (**NOT** external but inside that class).
+* Each time you create an object of that class, you should increase that counter somehow.
+
+Hint: was discussed during course already. :-)

@@ -11,3 +11,30 @@ Testing framework for Next Generation, much more powerful than JUnit.
 === Books
 
 Tomasz Kaczanowski - Practical Unit Tests with TestNG and Mockito
+
+=== And JUnit?
+
+http://kaczanowscy.pl/tomek/sites/default/files/testng_vs_junit.txt.slidy_.html#[Good comparison between the two]
+
+. doesn't have good parametrized tests (like with `@DataProvider`)
+. doesn't have groups of tests (besides suites)
+. can only have one runner, can't mix concepts
+. doesn't have factories
+. doesn't have tests dependent on execution of other tests (soft nor hard)
+. doesn't have soft assertions
+. doesn't have file that allows you to reconfigure it (like `testng.xml`)
+. doesn't allow to have `@DataProvider` or equivalent on classes
+. doesn't allow such nice reporting like in TestNG
+
+=== Migration from JUnit in steps
+
+. If devs are using JUnit and you can't migrate them
+.. migrate your tests to separate project
+. `@RunWith(Parameterized.class)` or `Zohhak` or `JUnitParams` -> `@DataProvider`, cause these are all for parametrized tests
+. Consider http://joel-costigliola.github.io/assertj/assertj-core-features-highlight.html[AssertJ] for assertions, to avoid switching `actuals` with `expecteds`
+. Most tests can be transferred with simple import changes (with perhaps actual-expected switches)
+. All `@RunWith` and `@Rule`s will be special cases
+. Last step: comb through test code looking for strange logic, where devs would try to work around JUnit inefficiencies (`for`, `if`, `ThreadPool` etc.)
+
+TIP: http://testng.org/doc/documentation-main.html
+

@@ -1,0 +1,12 @@
+# Line wrapper
+
+Line wrapper is a simple program that
+makes sure that lines of text have 
+specific length and if they do not -
+it makes them so.
+
+You can end the line 'prematurely',
+but you can't go over the limit.
+
+Limit should be a `short`.
+Method should also accept a `text`.

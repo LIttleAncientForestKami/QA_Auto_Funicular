@@ -1,0 +1,3 @@
+= Konwersja lokalnej daty dla określonej strefy czasowej do czasu UTC (Java 8) / Local date with timezone to UTC converter (Java 8)
+
+Code a method that accepts a date with timezone and returns what time would that be in UTC time (alias GMT).

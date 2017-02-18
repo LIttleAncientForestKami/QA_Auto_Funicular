@@ -1,0 +1,7 @@
+# Procentowe występowanie liter w tekście / Percentege occurences letters in text
+
+Input word is a String. Digits and spaces (or other special chars) do not count. Return how much of a whole word all letters were (in percentages).
+
+Example:
+
+jedwabnik -> each letters appears once, 10 letters in total, 10% per letter.

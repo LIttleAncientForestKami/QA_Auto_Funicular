@@ -1,0 +1,5 @@
+# Line unwrapper
+
+Complementary to line wrapper. 
+Undo to line wrapper.
+Takes wrapped lines and makes them into one long-*ss line!
