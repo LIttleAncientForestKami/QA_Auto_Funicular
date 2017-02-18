@@ -1,3 +1,34 @@
-=== Code coverage 
+== Code coverage 
 
-Will be added later
+Comes in two flavours, both measured in percents. 
+
+Statement code coverage :: verifies which statements in code have been executed during tests execution
+
+Branch code coverage :: focuses on decision points in code: `if`s, `while`s, and other instruction where code can branch and execute differently depending on some conditions. 
+
+[CAUTION]
+.100% utopia
+====
+Do **NOT** go for 100% coverage as due to Pareto rule that is quite meaningless and makes you lose time on irrelevant paths through code and causes you unnecessary struggles to come up with weird test cases for things not worth the effort.
+====
+
+=== Tools 
+
+. IDE integration (like running tests in IDEA for coverage)
+. EclEmma
+. Cobertura
+. Clover
+. SonarQube
+. JaCoCo (Java Code Coverage)
+
+Frequently this is executed by CI server (like Jenkins, Bamboo, etc.) or from Gradle / Maven / Ant / other build tool. Often used along static code analysis.
+
+[TIP]
+.Static Analysis
+====
+Usually done on compiled code, helps to find potential bugs or malpractices (like memory leaks, unused variables, resources left open after usage, etc.)
+
+Tools frequently used include: FindBugs, Checkstyle, PMD, SonarQube (integrates reports from all three previous tools).
+
+TIP: Intellij Idea IDE has a nice module for code analysis.
+====

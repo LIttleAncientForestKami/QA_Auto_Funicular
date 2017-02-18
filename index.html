@@ -482,7 +482,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_books">Books</a></li>
 <li><a href="#_and_junit">And JUnit?</a></li>
 <li><a href="#_migration_from_junit_in_steps">Migration from JUnit in steps</a></li>
-<li><a href="#_code_coverage">Code coverage</a></li>
+</ul>
+</li>
+<li><a href="#_code_coverage">Code coverage</a>
+<ul class="sectlevel2">
+<li><a href="#_tools">Tools</a></li>
 </ul>
 </li>
 <li><a href="#_testing_theory">Testing theory</a>
@@ -1337,10 +1341,97 @@ more about that in week 3, during infrastructure part
 </table>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_code_coverage">Code coverage</h3>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_code_coverage">Code coverage</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>Will be added later</p>
+<p>Comes in two flavours, both measured in percents.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Statement code coverage </dt>
+<dd>
+<p>verifies which statements in code have been executed during tests execution</p>
+</dd>
+<dt class="hdlist1">Branch code coverage </dt>
+<dd>
+<p>focuses on decision points in code: `if`s, `while`s, and other instruction where code can branch and execute differently depending on some conditions.</p>
+</dd>
+</dl>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="title">100% utopia</div>
+<div class="paragraph">
+<p>Do <strong>NOT</strong> go for 100% coverage as due to Pareto rule that is quite meaningless and makes you lose time on irrelevant paths through code and causes you unnecessary struggles to come up with weird test cases for things not worth the effort.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_tools">Tools</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>IDE integration (like running tests in IDEA for coverage)</p>
+</li>
+<li>
+<p>EclEmma</p>
+</li>
+<li>
+<p>Cobertura</p>
+</li>
+<li>
+<p>Clover</p>
+</li>
+<li>
+<p>SonarQube</p>
+</li>
+<li>
+<p>JaCoCo (Java Code Coverage)</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Frequently this is executed by CI server (like Jenkins, Bamboo, etc.) or from Gradle / Maven / Ant / other build tool. Often used along static code analysis.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="title">Static Analysis</div>
+<div class="paragraph">
+<p>Usually done on compiled code, helps to find potential bugs or malpractices (like memory leaks, unused variables, resources left open after usage, etc.)</p>
+</div>
+<div class="paragraph">
+<p>Tools frequently used include: FindBugs, Checkstyle, PMD, SonarQube (integrates reports from all three previous tools).</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Intellij Idea IDE has a nice module for code analysis.
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
