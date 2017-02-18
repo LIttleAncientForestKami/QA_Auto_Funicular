@@ -1,0 +1,5 @@
+# Program tworzący plik o podanej nazwie i treści / Program which creates a file with given name and content
+
+. Ask user for a file name
+. Create a file with such name in current directory
+. Fill it with content given by user (allow user to type it in)
