@@ -1,0 +1,13 @@
+# Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych) / You have a chess board, calculate “chess positions” (numerical value of white and black figures)
+
+Chess boards can be scored. What is on a board gives "points". Who has more points, wins. 
+
+## Piece - Points
+
+. Queen - 10
+. Tower - 5
+. Bishop - 3
+. Knight - 2
+. pawn - 1
+
+TIP: King is priceless, not having it means there's no points in scoring... ;-)

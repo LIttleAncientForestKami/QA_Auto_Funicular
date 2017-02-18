@@ -1,0 +1,9 @@
+# Program walidujący HTMLa za pomocą istniejącego walidatora / Program that validates HTML using existing validator
+
+. There are rules that properly build HTML page should follow.
+. There are validators on the Internet that check that submitted page follows these.
+. Make sure that submitted page follows them, using such validator.
+
+In simple words: take a HTML page, submit it to validator, get the result back and display it to the user.
+
+It's possible to do it with `Selenium` or with `HTTPClient`.

@@ -1,0 +1,5 @@
+# Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal move
+
+Reuse program with possible chess moves (one with empty board) and now show which moves are legal when you have a board.
+
+Reuse reading the board from standard chess notation (from pieces in danger program).

@@ -1,0 +1,5 @@
+# Dir shell
+
+Code a shell, that allows to change directories and list their contents.
+
+TIP: Reuse code from previous program!

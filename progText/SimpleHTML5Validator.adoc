@@ -1,0 +1,9 @@
+# Prosty walidator HTML 5 / Simple HTML 5 validator
+
+Accept a HTML page and validate that it's proper HTML 5 page... according to following simple criteria (not full HTML 5 specification):
+
+. _doctype_ is first line
+. _doctype_ is valid according to HTML5 specification
+. _HEAD_ has title (feel free to reuse code from previous program)
+. _HTML_ tag is the parent (except for _doctype_)
+. _HEAD_ and _BODY_ tags are child of that parent

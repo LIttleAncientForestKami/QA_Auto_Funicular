@@ -1,0 +1,13 @@
+# Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
+
+Write a program that validates HTML `<HEAD>` tag for correctness according to HTML5 rules.
+
+TIP: minimal valid header contains just `<title>` tag, if no such tag is detected by browsers it's added. Strange tags are simply ignored by browsers, feel free to do that too.
+
+## Input methods
+
+Please write three ways for user to pass you the tag content:
+
+. from file by file name
+. by typing it directly
+. passing it as a String

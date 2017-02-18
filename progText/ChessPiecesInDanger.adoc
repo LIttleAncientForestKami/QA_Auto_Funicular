@@ -1,0 +1,18 @@
+# Oto plansza szachów, podaj zagrożone figury / You have a chess board, show threatened figures
+
+Given a chess board noted in standard notation, return which pieces can be lost in next move (by both sides).
+
+## Chess board notation
+
+. White pieces start with W
+. Black pieces start with B
+. Each piece starts with first letter of it: K, Q, T, B, Kn, P. Kn is Knight.
+. Position on a board is given per coordinates, A1 - H8. 
+
+Example:
+
+WK A1 -> white king on field A1.
+
+Check for white if BQ is in column A or row 1 or in proper diagonal and can reach the king, or if BT are in same row / column without any pieces in between etc.
+
+TIP: start with just the king. I'll accept that as minimum version of the program.

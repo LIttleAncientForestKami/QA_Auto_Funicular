@@ -1,0 +1,28 @@
+# Prosty MD → HTML / Simple Markdown to HTML converter
+
+. Input: markdown file (with simple markup rules, outlined below).
+. Output: equivalent HTML page.
+. Your converter will get only text. No links, no media, no weirdness.
+. It should cover bold, italics, bulleted and numbered lists and headers.
+
+## Simple markdown file
+
+----
+*text within asterisks should be bolded*
+_text within underscores should be italicized_
+
+. starts a bullet list
+. without numbers
+
+1. if numbers are used
+2. then it's a numbered list
+4. even if numbers are not in order, make it ordered
+
+# means header, number of hashes tells you which header, h1 - h6
+----
+
+## Resulting HTML file
+
+. should have same HEAD, having UTF-8 as charset and "Converted Page" as title
+. should have converted text in BODY tag
+. should be a valid HTML 5 page (don't do strange things when converting and this should do).

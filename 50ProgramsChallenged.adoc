@@ -71,17 +71,16 @@ MEDIUM
 
 HARD
 
-. Program walidujący HTMLa za pomocą istniejącego walidatora / Program that validates HTML using existing validator
-. Prosty MD → HTML / Simple Markdown to HTML converter
-. Prosty walidator HTML 5 HEAD / Simple HTML 5 HEAD validator
-. Prosty walidator HTML 5 / Simple HTML 5 validator
-. Linia komend (powiedzmy 2 operacje: przechodzenie do kolejnego katalogu i
-listowanie plików w katalogu)./ command line (2 operations: changing directory,
-listing files in a directory)
-. Oto plansza szachów, oblicz "pozycje szachowe" (liczbowa wartość białych i czarnych) / You have a chess board, calculate “chess positions” (numerical value of white and black figures)
-. Oto plansza szachów, wykonaj legalny ruch / You have a chess board, make legal move
-. Oto plansza szachów, podaj zagrożone figury / You have a chess board, show threatened figures
-. Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
+. http://lafk.pl/QA_Auto_Funicular/ValidateHTMLOnline.html
+. http://lafk.pl/QA_Auto_Funicular/SimpleMD2HTMLConverter.html
+. http://lafk.pl/QA_Auto_Funicular/HTML5HeadValidator.html
+. http://lafk.pl/QA_Auto_Funicular/SimpleHTML5Validator.html
+. http://lafk.pl/QA_Auto_Funicular/DirShell.html
+. http://lafk.pl/QA_Auto_Funicular/ChessBoardScoring.html
+. http://lafk.pl/QA_Auto_Funicular/ChessLegalMove.html
+. http://lafk.pl/QA_Auto_Funicular/ChessPiecesInDanger.html
+. http://lafk.pl/QA_Auto_Funicular/ChessPossibleMove.html
+
 
 IMPOSSIBLE
 

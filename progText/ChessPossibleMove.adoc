@@ -1,0 +1,3 @@
+# Mając podaną figurę wypisz jej ruchy / You have a figure, show its possible moves
+
+Each piece has a limited set of moves, even queen. Having an empty chess board and one piece randomized (or chosen and placed) on it, show where that piece can go. Skip the pawns. Allow to move the piece and then show how that move changed where the piece can go.
