@@ -1,0 +1,5 @@
+# Program zlicza katalogi ORAZ pliki / Program which counts directories and files
+
+Given a path, program should return how many directories and files are within (two numbers).
+
+CAUTION: hidden folders and files should be included for bonus points.

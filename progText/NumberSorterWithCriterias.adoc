@@ -1,0 +1,14 @@
+# Number sorter with extra criterias
+
+Same as number sorter, but:
+
+. ArrayList<String> as input
+. Criteria enum as second input parameter
+. Enum should contain:
+.. ASC for ascending sort
+.. DESC for descending sort
+.. NUM for numerical sort (non-numerical input is at the end of sorted ArrayList)
+.. ALPH for alphabetical sort, first letters, then numbers
+.. CODE for sorting by code points, 
+
+CAUTION: input being list of strings means you are operating on words, despite the NumberSorter in the title!

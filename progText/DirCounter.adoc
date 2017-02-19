@@ -1,0 +1,5 @@
+# Program zliczający katalogi / Write a program that counts directories
+
+Accept a path, return how many directories are in it. 
+
+CAUTION: Windows and GNU/Linux or Mac systems use different path separators. Be mindful of it, your program should work cross-platforms!

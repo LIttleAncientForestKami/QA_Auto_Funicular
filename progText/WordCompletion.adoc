@@ -1,0 +1,9 @@
+# Word completion (ext → extra, extramarital, extraterrestrial…)
+
+Given 3 letters of a word, propose possible full words out of all words you have.
+
+IMPORTANT: http://lafk.pl/QA_Auto_Funicular/progText/british-english[British English word list for this task (99k words)]
+
+NOTE: you may need to return list of strings (like in the header for `ext`). I'd envision the program working with whatever user is typing and improving the results. Typing `ext` gives all in the title plus words like `extension` or `extended` but adding `ra` to it narrows things down to just words from the header, while adding `m` or `t` narrows it down even more...
+
+CAUTION: correct data structure will determine how well this is done.

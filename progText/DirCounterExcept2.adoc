@@ -1,0 +1,11 @@
+# j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a program that counts directories except ones from list + directory list can be created manually in the program
+
+Accept a path, return how many directories are in it. 
+
+CAUTION: Windows and GNU/Linux or Mac systems use different path separators. Be mindful of it, your program should work cross-platforms!
+
+Please also check a `forbidden.properties` file and exclude from counting all directories there.
+
+So, directory with two subdirectories would return 2, but if both are in the properties file, it would return 0.
+
+Additionally, allow the users to manually enter list of dirs NOT to be counted.

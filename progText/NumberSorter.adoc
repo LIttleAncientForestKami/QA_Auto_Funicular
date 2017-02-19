@@ -1,0 +1,5 @@
+# Number sorter
+
+Accepts an array of `int`s, returns a sorted array (ascendingly).
+
+One of few algorithmic tasks I've given, so try first coming up with your sorting algorithm before you look for it or reuse some.

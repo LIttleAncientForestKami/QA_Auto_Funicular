@@ -49,15 +49,16 @@ EASY
 
 MEDIUM
 
-. Program zliczający katalogi / Write a program that counts directories
-. j.w. + poza takimi z listy (z pliku properties) / Write a program that counts directories except ones from list (list from properties file)
-. j.w. + listę można robić ręcznie w programie (wybierz katalogi do…) / Write a program that counts directories except ones from list + directory list can be created manually in the program
-. Program zlicza katalogi ORAZ pliki / Program which counts directories and files
-. Calculator
-. Number sorter
-. Number sorter with extra criterias
-. Word completion (ext → extra, extramarital, extraterrestrial…)
-. A guessing game
+
+. http://lafk.pl/QA_Auto_Funicular/progText/DirCounter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DirCounterExceptProps.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DirCounterExcept2.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DirAndFileCounter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Calculator.html
+. http://lafk.pl/QA_Auto_Funicular/progText/NumberSorter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/NumberSorterWithCriterias.html
+. http://lafk.pl/QA_Auto_Funicular/progText/WordCompletion.html
+. http://lafk.pl/QA_Auto_Funicular/progText/GuessingGame.html
 . War (card game)
 . Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z LinkedList). / Remove nth element from the list (you have your own node structure)
 . Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający / Check if every opening bracket has corresponding closing bracket

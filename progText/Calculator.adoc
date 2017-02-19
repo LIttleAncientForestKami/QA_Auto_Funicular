@@ -1,0 +1,12 @@
+# Calculator
+
+Takes input and operation, returns result.
+
+Operations should include:
+
+. adding
+. multiplicating
+. subtracting
+. dividing
+
+Inputs are integers.

@@ -1,0 +1,8 @@
+# A guessing game
+
+. pick a file with questions
+. pick a file with answers
+. run a quiz, scoring player one point for each correctly answered questions
+. each question is a single-answer question
+
+NOTE: you do not have any information how question or answer files are to be structured, meaning it's up to you. Make it so that parsing them is easy for you.
