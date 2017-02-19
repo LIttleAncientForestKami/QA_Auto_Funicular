@@ -1,0 +1,9 @@
+# Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
+
+There's this old game, which starts with like that:
+
+  Poszedł Marek na jarmarek i kupił sobie zegarek
+
+Then, every player needs to repeat what was said before and ADD his own item to whatever Marek has bought at bazaar. The resulting list gets longer and longer, and every mistake eliminates the player. Winner is the last one in the game.
+
+Write a program, that allows to construct the word snake and check whether a player made a mistake or not.

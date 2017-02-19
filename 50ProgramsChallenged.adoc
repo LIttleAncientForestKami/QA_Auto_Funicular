@@ -49,7 +49,6 @@ EASY
 
 MEDIUM
 
-
 . http://lafk.pl/QA_Auto_Funicular/progText/DirCounter.html
 . http://lafk.pl/QA_Auto_Funicular/progText/DirCounterExceptProps.html
 . http://lafk.pl/QA_Auto_Funicular/progText/DirCounterExcept2.html
@@ -59,28 +58,28 @@ MEDIUM
 . http://lafk.pl/QA_Auto_Funicular/progText/NumberSorterWithCriterias.html
 . http://lafk.pl/QA_Auto_Funicular/progText/WordCompletion.html
 . http://lafk.pl/QA_Auto_Funicular/progText/GuessingGame.html
-. War (card game)
-. Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z LinkedList). / Remove nth element from the list (you have your own node structure)
-. Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający / Check if every opening bracket has corresponding closing bracket
-. Zamówienia [dodajesz zamówienie i ilość, na koniec oblicza kwote, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y] / Orders [You can add a product and quantity and at the end it calculates amount you need to pay. There can be a special offers, e.g. for three products “A” you pay X instead of 3 * Y where Y is a price of the product “A”]
-. Poker Hand Evaluator (You have five cards, what poker hand it is?)
-. Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd). / Password validator based on several conditions (length, special characters, big/small letters, digits, etc)
-. Słowny wąż (Marek na jarmarek kupił sobie zegarek) / Word snake
-. Text to CSV converter
-. Program wyświetlający zawartość pliku podanego po nazwie / Program that displays content of file which name was provided
-. Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator)/ Getting notifications about subscribed user (simple observer pattern)
+. http://lafk.pl/QA_Auto_Funicular/progText/War.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ListRemoval.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ParensBracketsAndBraces.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Orders.html
+. http://lafk.pl/QA_Auto_Funicular/progText/PokerHand.html
+. http://lafk.pl/QA_Auto_Funicular/progText/PassValidator.html
+. http://lafk.pl/QA_Auto_Funicular/progText/WordSnake.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Text2CSV.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DisplayFile.html
+. http://lafk.pl/QA_Auto_Funicular/progText/Observer.html
 
 HARD
 
-. http://lafk.pl/QA_Auto_Funicular/ValidateHTMLOnline.html
-. http://lafk.pl/QA_Auto_Funicular/SimpleMD2HTMLConverter.html
-. http://lafk.pl/QA_Auto_Funicular/HTML5HeadValidator.html
-. http://lafk.pl/QA_Auto_Funicular/SimpleHTML5Validator.html
-. http://lafk.pl/QA_Auto_Funicular/DirShell.html
-. http://lafk.pl/QA_Auto_Funicular/ChessBoardScoring.html
-. http://lafk.pl/QA_Auto_Funicular/ChessLegalMove.html
-. http://lafk.pl/QA_Auto_Funicular/ChessPiecesInDanger.html
-. http://lafk.pl/QA_Auto_Funicular/ChessPossibleMove.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ValidateHTMLOnline.html
+. http://lafk.pl/QA_Auto_Funicular/progText/SimpleMD2HTMLConverter.html
+. http://lafk.pl/QA_Auto_Funicular/progText/HTML5HeadValidator.html
+. http://lafk.pl/QA_Auto_Funicular/progText/SimpleHTML5Validator.html
+. http://lafk.pl/QA_Auto_Funicular/progText/DirShell.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ChessBoardScoring.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ChessLegalMove.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ChessPiecesInDanger.html
+. http://lafk.pl/QA_Auto_Funicular/progText/ChessPossibleMove.html
 
 
 IMPOSSIBLE

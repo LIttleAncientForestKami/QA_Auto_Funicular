@@ -1,0 +1,9 @@
+# Otrzymywanie powiadomień o zasubskrybowanym użytkowniku (prosty obserwator)/ Getting notifications about subscribed user (simple observer pattern)
+
+In all social networks you have possibility to `follow` someone, or `observe` him/her and be notified about every update they make. Implement such a feature, where once you `subscribe` to some user's feed, you are notified the moment they publish something.
+
+IMPORTANT: do not think it's enough to just print updates out from a `User` class. The aim of this exercise is to teach you **Observer Design Pattern**, so updates from `User` should be propagated to, say, `Watcher` class and there something should happen, depending on an update.
+
+NOTE: In real world, there would be more than one `Watcher` and thus hardcoding this would be unmanageable.
+
+For simplicity, assume that any `User` can change status from `busy` to `free` and vice-versa.

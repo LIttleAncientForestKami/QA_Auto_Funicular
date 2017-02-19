@@ -1,0 +1,14 @@
+# Text to CSV converter
+
+Having a text file, convert it to CSV file.
+
+CSV :: Comma-Separated values, a file with columns of values, separated by a comma.
+
+## Exemplary CSV file
+
+----
+a, b, c, d
+1, 11, 13, quartz
+2, 2, 2, silver
+----
+

@@ -1,0 +1,9 @@
+# Zamówienia / Orders
+
+Dodajesz zamówienie i ilość, na koniec obliczasz kwotę, może być z rabatami typu przy kupnie 3 produktów A płacisz X zamiast 3 * Y.
+
+You can add a product and quantity and at the end it calculates amount you need to pay. Possibly with special offers, e.g. for three products “A” you pay X instead of 3 * Y where Y is a price of the product “A”.
+
+CAUTION: first go without specials. Just accept a list of products, each product should have a price, and calculate that. Once that is ready, add specials in.
+
+TIP: This exercise allows you to practice Object Oriented programming. You should think about your products and specials and find a way to easily impose the latter on the former.

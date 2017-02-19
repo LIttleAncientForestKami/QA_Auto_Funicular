@@ -1,0 +1,16 @@
+# Poker Hand Evaluator (You have five cards, what poker hand it is?)
+
+Poker hands are nicely described https://www.pokerstars.eu/pl/poker/games/rules/hand-rankings/[at Poker Stars], site should be translatable.
+
+It's enough if the program evaluates:
+
+. Poker (Straight Flush) i Królewski Poker (Royal Flush)
+. Kareta (Four of a Kind)
+. Ful (Full House)
+. Kolor (Flush)
+. Strit (Straight)
+. Trójka (Three of a Kind)
+. Dwie pary (Two Pairs)
+. Parę (Pair)
+
+Program is to just tell the name of the hand and highlight cards that make it.

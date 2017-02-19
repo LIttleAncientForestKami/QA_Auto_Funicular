@@ -1,0 +1,18 @@
+# War (card game)
+
+. Deck of cards is 52 cards (no jokers)
+. Colour of a card doesn't matter
+. Numbered cards are worth number of points (2 -> 2, 8 -> 8)
+. Jack, Queen and King are worth 11, 12 and 13 points, respectively
+. Ace is worth 14 points or 1 point
+. Cards are shuffled between players
+. Players play their cards simultaneously (from the top of their decks)
+. Highest card wins
+. Winner takes all cards played
+. In case of a draw:
+.. play a second card from players deck, face down
+.. play a third card and compare
+.. highest card wins (winner takes all, including hidden cards)
+.. in case of a tie, procedure is repeated
+
+TIP: for variations, https://en.wikipedia.org/wiki/War_(card_game)[Wikipedia]

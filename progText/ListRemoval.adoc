@@ -1,0 +1,6 @@
+# Usuwanie n-tego elementu z listy (własna struktura dla węzła, bez korzystania np z LinkedList). / Remove nth element from the list (you have your own node structure)
+
+. Code your own linked list
+. Make it able to REMOVE an element by it's index, so `remove(4)` removes 4-th element
+
+CAUTION: do *NOT* reuse `LinkedList`

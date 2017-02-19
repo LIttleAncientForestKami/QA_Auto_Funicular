@@ -1,0 +1,3 @@
+# Program wyświetlający zawartość pliku podanego po nazwie / Program that displays content of file which name was provided
+
+Accept a file name, display it's content or report why you cannot.

@@ -1,0 +1,3 @@
+# Walidator hasła na podstawie kilku warunków (długość, znaki specjalne, małe/wielkie litery, cyfry itd). / Password validator based on several conditions (length, special characters, big/small letters, digits, etc)
+
+Given a password, make sure that it is valid. You choose the criteria, but no less than three.

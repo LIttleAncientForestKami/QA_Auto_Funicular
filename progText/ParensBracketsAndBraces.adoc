@@ -1,0 +1,7 @@
+# Sprawdzanie czy każdy nawias otwierający ma odpowiadający nawias zamykający / Check if every opening bracket has corresponding closing bracket
+
+Frequent problems in programming occur when a young programmer forgots to type in matching parenthesis or bracket. Make sure that doesn't happen!
+
+Accept a text, return a boolean saying if all brackets and parenthesis have their corresponding element.
+
+TIP: do not worry about angle brackets: `<` and `>`. Just `[ ] ( ) { }`.
