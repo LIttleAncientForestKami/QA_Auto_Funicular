@@ -506,6 +506,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_test_driven_development_design">Test Driven Development / Design</a></li>
+<li><a href="#_bdd">BDD</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_2">Tools</a></li>
+</ul>
+</li>
 <li><a href="#_selectors">Selectors</a>
 <ul class="sectlevel2">
 <li><a href="#_css_or_xpath">CSS or XPath?</a></li>
@@ -1739,6 +1744,109 @@ These tests require some action from a human, so when you will automate&#8230;&#
 </div>
 </div>
 <div class="sect1">
+<h2 id="_bdd">BDD</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">GWT </dt>
+<dd>
+<p>Given, When, Then, good test structure. Given is setup, When is calling the tested method, system, etc., Then is asserting the results. Also known as <strong>AAA</strong>, for *A*rrange, *A*ct and *A*ssert.</p>
+</dd>
+<dt class="hdlist1">TDD </dt>
+<dd>
+<p>Test-Driven-Development, tests are written before the code and therefore they drive it. More above, here just mentioned as refresher.</p>
+</dd>
+<dt class="hdlist1">ATDD </dt>
+<dd>
+<p><strong>Acceptance</strong> TDD. Focuses on having a list of features, functions or requirements before you start implementing them with TDD. Often portrayed as larger cycle with TDD cycle being the <em>inner loop</em>.</p>
+</dd>
+<dt class="hdlist1">BDD </dt>
+<dd>
+<p>*B*ehaviour-*D*riven-*D*evelopment, stems from TDD and ATDD, makes extensive use of GWT structure, to the point where each letter there becomes a <em>step</em> in actual test.</p>
+</dd>
+</dl>
+</div>
+<div class="sect2">
+<h3 id="_tools_2">Tools</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>JBehave</strong> - most used during training</p>
+</li>
+<li>
+<p><strong>Cucumber</strong></p>
+</li>
+<li>
+<p><strong>Concordion</strong></p>
+</li>
+<li>
+<p><strong>Twist</strong></p>
+</li>
+<li>
+<p><strong>Gauge</strong>, successor to Twist</p>
+</li>
+<li>
+<p><strong>EasyB</strong> - Groovy one, use it when you use Spock for tests</p>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_jbehave">JBehave</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://jbehave.org/" class="bare">http://jbehave.org/</a></p>
+</li>
+<li>
+<p><a href="http://jbehave.org/reference/stable/annotations.html">JBehave annotations</a></p>
+</li>
+<li>
+<p><a href="http://jbehave.org/reference/stable/concepts.html">Story, Scenario, Step</a></p>
+</li>
+<li>
+<p><a href="http://www.slideshare.net/shadrik/bdd-with-java-8323915">JBehave and Selenium, preso showcasing both</a> shows a lot of concepts we didn&#8217;t touch</p>
+</li>
+<li>
+<p><a href="http://www.tiefenauer.info/bdd-with-jbehave-setup-and-basic-tests/">Maven and JUnit project, simple tests with IDEA setup</a></p>
+</li>
+<li>
+<p><a href="https://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/">Good outline telling how to configure JBehave in different ways</a></p>
+</li>
+<li>
+<p><a href="http://stackoverflow.com/questions/29841833/intellij-idea-jbehave-support-plugin-cannot-find-declaration-to-go-to">Various answers to setting up IDEA support with <em>JBehave Support</em> plugin</a></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<a href="https://github.com/allegro/SimplePricingService">Useful project</a> and <a href="http://allegro.tech/2015/03/acceptance-testing-with-jbehave-and-gradle.html">blog post about it</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+consider also exemplary Selenium application.<br>
+IMPORTANT: To set JBehave with TestNG, create an alternative class to <code>JUnitStory</code> and make it use <code>run</code> method annotated with <code>@Test</code> from <code>org.testng.annotations</code> package (or wherever it&#8217;s now stored). Remember to have same parent as <code>JUnitStory</code>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_selectors">Selectors</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -1916,7 +2024,7 @@ These tests require some action from a human, so when you will automate&#8230;&#
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-02-18 23:35:40 CET
+Last updated 2017-02-21 17:31:47 CET
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

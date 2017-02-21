@@ -1,0 +1,34 @@
+== BDD
+
+GWT :: Given, When, Then, good test structure. Given is setup, When is calling the tested method, system, etc., Then is asserting the results. Also known as **AAA**, for *A*rrange, *A*ct and *A*ssert.
+
+TDD :: Test-Driven-Development, tests are written before the code and therefore they drive it. More above, here just mentioned as refresher.
+
+ATDD :: **Acceptance** TDD. Focuses on having a list of features, functions or requirements before you start implementing them with TDD. Often portrayed as larger cycle with TDD cycle being the _inner loop_.
+
+BDD :: *B*ehaviour-*D*riven-*D*evelopment, stems from TDD and ATDD, makes extensive use of GWT structure, to the point where each letter there becomes a _step_ in actual test.
+
+=== Tools
+
+. *JBehave* - most used during training
+. *Cucumber*
+. *Concordion*
+. *Twist*
+. *Gauge*, successor to Twist
+. *EasyB* - Groovy one, use it when you use Spock for tests
+
+==== JBehave
+
+. http://jbehave.org/
+. http://jbehave.org/reference/stable/annotations.html[JBehave annotations]
+. http://jbehave.org/reference/stable/concepts.html[Story, Scenario, Step]
+. http://www.slideshare.net/shadrik/bdd-with-java-8323915[JBehave and Selenium, preso showcasing both] shows a lot of concepts we didn't touch
+. http://www.tiefenauer.info/bdd-with-jbehave-setup-and-basic-tests/[Maven and JUnit project, simple tests with IDEA setup]
+. https://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/[Good outline telling how to configure JBehave in different ways]
+. http://stackoverflow.com/questions/29841833/intellij-idea-jbehave-support-plugin-cannot-find-declaration-to-go-to[Various answers to setting up IDEA support with _JBehave Support_ plugin]
+
+
+TIP: https://github.com/allegro/SimplePricingService[Useful project] and http://allegro.tech/2015/03/acceptance-testing-with-jbehave-and-gradle.html[blog post about it]
+
+TIP: consider also exemplary Selenium application.
+IMPORTANT: To set JBehave with TestNG, create an alternative class to `JUnitStory` and make it use `run` method annotated with `@Test` from `org.testng.annotations` package (or wherever it's now stored). Remember to have same parent as `JUnitStory`.

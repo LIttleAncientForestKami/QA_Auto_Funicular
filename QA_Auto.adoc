@@ -27,7 +27,10 @@ include::CodeCoverage.adoc[]
 
 include::Theory.adoc[]
 
+
 include::TDD.adoc[]
+
+include::BDD.adoc[]
 
 include::Selectors.adoc[]
 
