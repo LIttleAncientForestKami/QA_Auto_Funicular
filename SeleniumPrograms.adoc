@@ -2,11 +2,12 @@
 
 Each program has a README file with instruction how to prepare and run:
 
-. MyBooksReview: git@github.com:caroo7/MyBooksReview.git 
-         git@github.com:tdudzik/mybooksreviews.git
-. TicTacToe: git@github.com:caroo7/TTT.git
-. RockPaperScissors: git@github.com:caroo7/RockPaperScissors.git
-. CurrencyConverter: git@github.com:tdudzik/currencyconverter.git
+. MyBooksReview: 
+.. git clone https://github.com/caroo7/MyBooksReview
+.. git clone https://github.com/tdudzik/mybooksreviews
+. TicTacToe: https://github.com/caroo7/TTT
+. RockPaperScissors: https://github.com/caroo7/RockPaperScissors
+. CurrencyConverter: git@github.com/tdudzik/currencyconverter
 
 === Whom to ask for instructions?
 caroo7 :: Karol
